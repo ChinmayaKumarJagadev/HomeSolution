@@ -88,7 +88,7 @@
   animation: slideInLeft 1.5s ease-in-out forwards;
   animation-delay: 1s;
   left: -500px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-size: 18px;
 }
 

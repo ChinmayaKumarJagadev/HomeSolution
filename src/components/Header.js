@@ -58,7 +58,7 @@ function Header() {
           onClick={() => setIsOpen(true)}
           aria-label="Open menu"
         >
-          <FaBars className="text-3xl text-white"/>
+          <FaBars className="text-2xl text-white"/>
         </button>
 
         {/* Mobile Modal */}
@@ -73,7 +73,7 @@ function Header() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full max-w-full bg-slate-700 bg-opacity-70 shadow-xl lg:hidden text-white gap-5"
+            className="relative w-full max-w-full bg-slate-700 bg-opacity-70 shadow-xl lg:hidden text-white gap-5 overflow-auto"
             style={{ height: "100%" }}
           >
             <button
@@ -140,19 +140,19 @@ function Header() {
 
             <hr className="w-full" />
 
-            <div className="md:ml-[100px] ml-4">
+            <div className="md:ml-[100px] ml-4 mb-5">
               <div className="mt-5 text-left md:text-3xl">FOLLOW US</div>
               <div className="flex gap-5 mt-5">
               <Link href="https://www.facebook.com" passHref>
-                <FaFacebookF className={styles.scoialIcons} style={{ fontSize: "35px"}}/>
+                <FaFacebookF className={styles.scoialIcons} style={{ fontSize: "30px"}}/>
               </Link>
 
               <Link href="https://www.linkedin.com" passHref>
-                <FaLinkedinIn className={styles.scoialIcons} style={{ fontSize: "35px"}}/>
+                <FaLinkedinIn className={styles.scoialIcons} style={{ fontSize: "30px"}}/>
               </Link>
 
               <Link href="https://www.twitter.com" passHref>
-                <FaTwitter className={styles.scoialIcons} style={{ fontSize: "35px"}}/>
+                <FaTwitter className={styles.scoialIcons} style={{ fontSize: "30px"}}/>
               </Link>
               </div>
             </div>
