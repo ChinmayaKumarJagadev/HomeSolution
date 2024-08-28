@@ -1,0 +1,205 @@
+.hero_container {
+  height: calc(100vh - 170px);
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 169px;
+  position: relative;
+}
+.carouselItem {
+  position: relative;
+}
+
+.bgImage {
+  height: calc(100vh - 170px) !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.customArrowPrev {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background: #fff; */
+  background-color: rgba(19, 10, 10, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 25px;
+  border-radius: 50%;
+}
+
+.customArrowNext {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(19, 10, 10, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 25px;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.designInfo {
+  position: absolute;
+  left: 0px; /* Adjust as needed */
+  z-index: 3;
+  color: #fff;
+  background-color: rgba(76, 60, 60, 0.5);
+  width: 100%;
+  top: 0px;
+  height: 100vh;
+  bottom: 0;
+  display: flex;
+  clip-path: polygon(0 0, 55% 0, 38% 100%, 0% 100%);
+}
+
+.designTitle {
+  position: absolute;
+  font-size: 38px;
+  color: #fff;
+  top: 160px;
+  animation: slideInLeft 1s ease-in-out forwards;
+  animation-delay: 1s;
+  left: -500px;
+  font-weight: bold;
+}
+
+.designDesc {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  animation: slideInLeft 1.5s ease-in-out forwards;
+  animation-delay: 1s;
+  left: -500px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.designButton {
+  position: absolute;
+  display: flex;
+  margin-top: 120px;
+  /* width: 100%; */
+  animation: slideInLeft 2s ease-in-out forwards;
+  animation-delay: 1s;
+  left: -500px;
+  background-color: #d91c1c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.rightArrow {
+  height: 30px;
+  width: 30px !important;
+  margin: 2px 0 0 10px;
+}
+.designInfoContainer {
+  display: flex;
+  flex-direction: column;
+  opacity: 100;
+  height: 70%;
+  margin-left: 180px;
+  width: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+@keyframes slideInLeft {
+  0% {
+    left: -1000px;
+    opacity: 0;
+  }
+  70% {
+    left: 180px;
+    opacity: 1;
+  }
+  100% {
+    left: 150px;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero_container {
+    height: 30vh;
+  }
+  .bgImage {
+    object-position: center;
+    height: 30vh !important;
+  }
+  .overlay {
+    /* height: calc(100% - 638px) !important; */
+  }
+  .imageContainer {
+    height: 30vh;
+  }
+  .customArrowPrev {
+    top: 50%;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .customArrowNext {
+    top: 50%;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .designTitle {
+    font-size: 22px;
+    top: 10px;
+    left: -500px;
+    text-align: left !important;
+    margin-top: 35px;
+  }
+  .designDesc {
+    font-size: 13px;
+    top: 85px;
+  }
+  .designButton {
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 20px;
+  }
+
+  .rightArrow {
+    height: 22px;
+    width: 17px !important;
+
+  }
+  .designInfo {
+    clip-path: polygon(0 0, 85% 0, 0% 79%, 0% 168%);
+    /* height: calc(100% - 637px) !important; */
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      left: -300px;
+      opacity: 0;
+    }
+    70% {
+      left: 40px;
+      opacity: 1;
+    }
+    100% {
+      left: 30px;
+      opacity: 1;
+    }
+  }
+}
