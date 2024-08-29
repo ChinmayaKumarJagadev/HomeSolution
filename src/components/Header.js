@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaBars } from "react-icons/fa";
-import { Dialog } from "@headlessui/react";
+import Modal from "react-modal";
 import { motion } from "framer-motion";
 import styles from "../styles/header.module.css";
 import logo from "../assets/Images/logo1.png";
 import Phone from "../assets/Images/phone-call.png";
 import Mail from "../assets/Images/mail.png";
 import SocialIcons from "./SocialIcons";
+
+Modal.setAppElement("#__next"); // Important for accessibility
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,15 +60,24 @@ function Header() {
           onClick={() => setIsOpen(true)}
           aria-label="Open menu"
         >
-          <FaBars className="text-2xl text-white"/>
+          <FaBars className="text-2xl text-white" />
         </button>
 
         {/* Mobile Modal */}
-        <Dialog
-          open={isOpen}
-          onClose={() => setIsOpen(false)}
+        <Modal
+          isOpen={isOpen}
+          onRequestClose={() => setIsOpen(false)}
           className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center text-center text-2xl gap-5"
-          style={{ height: "100%" }}
+          style={{
+            content: {
+              height: "100%",
+              inset: 0,
+              background: "none",
+              border: "none",
+              padding: 0,
+              overflow: "hidden",
+            },
+          }}
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -104,7 +115,9 @@ function Header() {
             </ul>
 
             <div className="text-2xl mt-3 md:mt-9 ml-5 md:ml-[100px] float-left mb-5 md:mb-9">
-              <div className="text-left mb-2 md:text-3xl text-[16px] font-bold">NEED HELP ?</div>
+              <div className="text-left mb-2 md:text-3xl text-[16px] font-bold">
+                NEED HELP ?
+              </div>
               <div className="flex flex-col gap-1 md:gap-7">
                 <Link
                   href="https://www.facebook.com"
@@ -141,23 +154,25 @@ function Header() {
             <hr className="w-full" />
 
             <div className="md:ml-[100px] ml-4 pb-5">
-              <div className="mt-5 text-left md:text-3xl text-[16px] font-bold">FOLLOW US</div>
-              <div className="flex gap-5 mt-1" style={{ marginLeft: "-5px"}}>
-              <Link href="https://www.facebook.com" passHref>
-                <FaFacebookF className={styles.scoialIcons} />
-              </Link>
+              <div className="mt-5 text-left md:text-3xl text-[16px] font-bold">
+                FOLLOW US
+              </div>
+              <div className="flex gap-5 mt-1" style={{ marginLeft: "-5px" }}>
+                <Link href="https://www.facebook.com" passHref>
+                  <FaFacebookF className={styles.scoialIcons} />
+                </Link>
 
-              <Link href="https://www.linkedin.com" passHref>
-                <FaLinkedinIn className={styles.scoialIcons} />
-              </Link>
+                <Link href="https://www.linkedin.com" passHref>
+                  <FaLinkedinIn className={styles.scoialIcons} />
+                </Link>
 
-              <Link href="https://www.twitter.com" passHref>
-                <FaTwitter className={styles.scoialIcons} />
-              </Link>
+                <Link href="https://www.twitter.com" passHref>
+                  <FaTwitter className={styles.scoialIcons} />
+                </Link>
               </div>
             </div>
           </motion.div>
-        </Dialog>
+        </Modal>
       </nav>
     </header>
   );
