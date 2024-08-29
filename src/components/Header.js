@@ -44,29 +44,19 @@ function Header() {
         {/* Desktop Menu */}
         <ul className={`${styles.navLinks} hidden lg:flex`}>
           <li>
-            <Link href="/about">
-              About <FaChevronRight className="inline ml-2 text-white" />
-            </Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/services">
-              Services <FaChevronRight className="inline ml-2 text-white" />
-            </Link>
+            <Link href="/services">Services</Link>
           </li>
           <li>
-            <Link href="/project">
-              Projects <FaChevronRight className="inline ml-2 text-white" />
-            </Link>
+            <Link href="/project">Projects</Link>
           </li>
           <li>
-            <Link href="/testimonials">
-              Testimonials <FaChevronRight className="inline ml-2 text-white" />
-            </Link>
+            <Link href="/testimonials">Testimonials</Link>
           </li>
           <li>
-            <Link href="/contact">
-              Contact <FaChevronRight className="inline ml-2 text-white" />
-            </Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -101,7 +91,7 @@ function Header() {
           }}
         >
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
@@ -116,79 +106,92 @@ function Header() {
               &times;
             </button>
             <ul className="flex flex-col space-y-4 uppercase tracking-wider mt-2]">
-              <li className="hover:bg-orange-700 p-3 rounded mt-20 text-xl m-3">
-                <Link href="/" className="flex items-center gap-[86px]">
-                  About <FaChevronRight className="ml-2 text-white text-sm" />
+              <li className="hover:bg-orange-700 p-2 rounded mt-20 text-xl m-3">
+                <Link href="/" className="flex items-center">
+                  About{" "}
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
-                <Link href="/" className="flex items-center gap-[50px]">
-                  Services <FaChevronRight className="ml-2 text-white text-sm" />
+              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+                <Link href="/" className="flex items-center">
+                  Services{" "}
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
-                <Link href="/" className="flex items-center gap-[45px]">
-                  Projects <FaChevronRight className="ml-2 text-white text-sm" />
+              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+                <Link href="/" className="flex items-center">
+                  Projects{" "}
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
-                <Link href="/" className="flex items-center gap-[0]">
-                  Testimonials <FaChevronRight className="ml-2 text-white text-sm" />
+              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+                <Link href="/" className="flex items-center">
+                  Testimonials{" "}
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
-                <Link href="/" className="flex items-center gap-[60px]">
-                  Contact <FaChevronRight className="ml-2 text-white text-sm" />
+              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+                <Link href="/" className="flex items-center">
+                  Contact{" "}
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
 
               <hr className="w-full" />
             </ul>
 
-            <div className="text-2xl mt-3 md:mt-9 ml-5 md:ml-[100px] float-left mb-5 md:mb-9">
+            <div className="relative text-2xl mt-3 md:mt-9 ml-5 float-left mb-5 md:mb-9">
               <div className="text-left mb-2 md:text-3xl text-[16px] font-bold">
                 NEED HELP ?
               </div>
-              <div className="flex flex-col gap-1 md:gap-7">
-                <Link
-                  href="https://www.facebook.com"
-                  passHref
-                  className="text-left md:mt-2"
-                >
-                  <Image
-                    src={Phone}
-                    alt="error"
-                    className={styles.scoialIcons}
-                    height={30}
-                    width={30}
-                  />
-                  <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
-                    0941 112 0710
-                  </span>
-                </Link>
+              <div className="flex flex-col gap-1 md:gap-7 h-[75px]">
+                <div className={styles.phoneText}>
+                  <Link
+                    href="https://www.facebook.com"
+                    passHref
+                    className="text-left md:mt-2"
+                  >
+                    <Image
+                      src={Phone}
+                      alt="error"
+                      className={styles.scoialIcons}
+                      height={30}
+                      width={30}
+                    />
+                    <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
+                      0941 112 0710
+                    </span>
+                  </Link>
+                </div>
 
-                <Link href="https://www.facebook.com" passHref>
-                  <Image
-                    src={Mail}
-                    alt="error"
-                    className={styles.scoialIcons}
-                    height={30}
-                    width={30}
-                  />
-                  <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
-                    supportalok@gmail.com
-                  </span>
-                </Link>
+                <div className={styles.emailText}>
+                  <Link href="https://www.facebook.com" passHref>
+                    <Image
+                      src={Mail}
+                      alt="error"
+                      className={styles.scoialIcons}
+                      height={30}
+                      width={30}
+                    />
+                    <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
+                      supportalok@gmail.com
+                    </span>
+                  </Link>
+                </div>
+
               </div>
             </div>
 
             <hr className="w-full" />
 
-            <div className="md:ml-[100px] ml-4 pb-5">
+            <div className="relative ml-4 pb-5">
               <div className="mt-5 text-left md:text-3xl text-[16px] font-bold">
                 FOLLOW US
               </div>
-              <div className="flex gap-5 mt-3" style={{ marginLeft: "-5px" }}>
+              <div
+                className={styles.mobileSocialIcons}
+                style={{ marginLeft: "-5px" }}
+              >
                 <Link href="https://www.facebook.com" passHref>
                   <FaFacebookF className={styles.scoialIcons} />
                 </Link>
