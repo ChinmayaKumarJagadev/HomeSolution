@@ -82,7 +82,18 @@
   text-align: center;
 }
 
+
 @media screen and (max-width: 450px) {
+  .menuModal {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(51, 65, 85, 0.7); /* bg-slate-700 with 70% opacity */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* shadow-xl */
+    color: white;
+    gap: 1.25rem; /* gap-5 */
+    overflow: hidden; /* overflow-hidden by default for small devices */
+  }
   .navLinks{
     /* display: none; */
   }
@@ -107,16 +118,18 @@
 
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
   .navLinks{
     display: none;
   } 
   .header_text{
     display: none;
   }
-
+  
+  /* .menuModal {
+    overflow: auto; 
+  } */
 }
-
 
 
 
