@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import styles from "../styles/hero.module.css";
+import styles from "../../styles/hero.module.css";
 import Image from "next/image";
-import RightArrow from '../assets/Images/right-arrow.png'
+import RightArrow from '../../assets/Images/right-arrow.png'
 
 function DesignInfo({ activeIndex, textAnimation }) {
   console.log(textAnimation, 'design components')

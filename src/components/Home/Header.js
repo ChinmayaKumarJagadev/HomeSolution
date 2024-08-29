@@ -10,10 +10,10 @@ import {
 } from "react-icons/fa";
 import Modal from "react-modal";
 import { motion } from "framer-motion";
-import styles from "../styles/header.module.css";
-import logo from "../assets/Images/logo1.png";
-import Phone from "../assets/Images/phone-call.png";
-import Mail from "../assets/Images/mail.png";
+import styles from "../../styles/header.module.css";
+import logo from "../../assets/Images/logo1.png";
+import Phone from "../../assets/Images/phone-call.png";
+import Mail from "../../assets/Images/mail.png";
 import SocialIcons from "./SocialIcons";
 
 Modal.setAppElement("#__next"); // Important for accessibility
@@ -106,6 +106,14 @@ function Header() {
               &times;
             </button>
             <ul className="flex flex-col space-y-4 uppercase tracking-wider mt-2]">
+
+            <li className="hover:bg-orange-700 p-2 rounded mt-20 text-xl m-3">
+                <Link href="/" className="flex items-center">
+                 Home
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
+                </Link>
+              </li>
+
               <li className="hover:bg-orange-700 p-2 rounded mt-20 text-xl m-3">
                 <Link href="/" className="flex items-center">
                   About{" "}

@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import styles from "../styles/hero.module.css";
-import Image1 from "../assets/Images/alok-1.jpg";
-import Image2 from "../assets/Images/alok-2.jpg";
-import Image3 from "../assets/Images/alok-3.jpg";
+import styles from "../../styles/hero.module.css";
+import Image1 from "../../assets/Images/alok-1.jpg";
+import Image2 from "../../assets/Images/alok-2.jpg";
+import Image3 from "../../assets/Images/alok-3.jpg";
 import DesignInfo from "./DesignInfo";
 
 const images = [Image1, Image2, Image3];

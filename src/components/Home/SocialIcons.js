@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../styles/header.module.css";
+import styles from "../../styles/header.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Phone from "../assets/Images/phone-call.png";
+import Phone from "../../assets/Images/phone-call.png";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaBars } from "react-icons/fa";
 
 function SocialIcons() {
