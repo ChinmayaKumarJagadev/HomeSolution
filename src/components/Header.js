@@ -140,7 +140,7 @@ function Header() {
 
             <hr className="w-full" />
 
-            <div className="md:ml-[100px] ml-4 mb-5">
+            <div className="md:ml-[100px] ml-4 pb-5">
               <div className="mt-5 text-left md:text-3xl text-[16px] font-bold">FOLLOW US</div>
               <div className="flex gap-5 mt-1" style={{ marginLeft: "-5px"}}>
               <Link href="https://www.facebook.com" passHref>
