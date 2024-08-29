@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaBars } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaBars,
+  FaChevronRight,
+} from "react-icons/fa";
 import Modal from "react-modal";
 import { motion } from "framer-motion";
 import styles from "../styles/header.module.css";
@@ -38,19 +44,29 @@ function Header() {
         {/* Desktop Menu */}
         <ul className={`${styles.navLinks} hidden lg:flex`}>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">
+              About <FaChevronRight className="inline ml-2 text-white" />
+            </Link>
           </li>
           <li>
-            <Link href="/services">Services</Link>
+            <Link href="/services">
+              Services <FaChevronRight className="inline ml-2 text-white" />
+            </Link>
           </li>
           <li>
-            <Link href="/project">Projects</Link>
+            <Link href="/project">
+              Projects <FaChevronRight className="inline ml-2 text-white" />
+            </Link>
           </li>
           <li>
-            <Link href="/testimonials">Testimonials</Link>
+            <Link href="/testimonials">
+              Testimonials <FaChevronRight className="inline ml-2 text-white" />
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">
+              Contact <FaChevronRight className="inline ml-2 text-white" />
+            </Link>
           </li>
         </ul>
 
@@ -67,12 +83,17 @@ function Header() {
         <Modal
           isOpen={isOpen}
           onRequestClose={() => setIsOpen(false)}
-          className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center text-center text-2xl gap-5"
           style={{
+            overlay: {
+              backgroundColor: "rgba(0, 0, 0, 0.9)",
+              zIndex: 50,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            },
             content: {
-              height: "100%",
               inset: 0,
-              background: "none",
+              background: "transparent",
               border: "none",
               padding: 0,
               overflow: "hidden",
@@ -84,7 +105,7 @@ function Header() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full max-w-full bg-slate-700 bg-opacity-70 shadow-xl text-white gap-5 overflow-auto lg:hidden md:overflow-auto"
+            className="relative w-full max-w-full bg-slate-700 bg-opacity-70 shadow-xl text-white gap-5 overflow-auto lg:hidden"
             style={{ height: "100%" }}
           >
             <button
@@ -94,21 +115,31 @@ function Header() {
             >
               &times;
             </button>
-            <ul className="flex flex-col space-y-4 uppercase tracking-wider mt-2">
+            <ul className="flex flex-col space-y-4 uppercase tracking-wider mt-2]">
               <li className="hover:bg-orange-700 p-3 rounded mt-20 text-xl m-3">
-                <Link href="/">About</Link>
+                <Link href="/" className="flex items-center gap-[86px]">
+                  About <FaChevronRight className="ml-2 text-white text-sm" />
+                </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-8">
-                <Link href="/">Services</Link>
+              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
+                <Link href="/" className="flex items-center gap-[50px]">
+                  Services <FaChevronRight className="ml-2 text-white text-sm" />
+                </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-8">
-                <Link href="/">Projects</Link>
+              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
+                <Link href="/" className="flex items-center gap-[45px]">
+                  Projects <FaChevronRight className="ml-2 text-white text-sm" />
+                </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-8">
-                <Link href="/">Testimonials</Link>
+              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
+                <Link href="/" className="flex items-center gap-[0]">
+                  Testimonials <FaChevronRight className="ml-2 text-white text-sm" />
+                </Link>
               </li>
-              <li className="hover:bg-orange-700 p-3 rounded text-xl m-8">
-                <Link href="/">Contact</Link>
+              <li className="hover:bg-orange-700 p-3 rounded text-xl m-4">
+                <Link href="/" className="flex items-center gap-[60px]">
+                  Contact <FaChevronRight className="ml-2 text-white text-sm" />
+                </Link>
               </li>
 
               <hr className="w-full" />
@@ -157,7 +188,7 @@ function Header() {
               <div className="mt-5 text-left md:text-3xl text-[16px] font-bold">
                 FOLLOW US
               </div>
-              <div className="flex gap-5 mt-1" style={{ marginLeft: "-5px" }}>
+              <div className="flex gap-5 mt-3" style={{ marginLeft: "-5px" }}>
                 <Link href="https://www.facebook.com" passHref>
                   <FaFacebookF className={styles.scoialIcons} />
                 </Link>
