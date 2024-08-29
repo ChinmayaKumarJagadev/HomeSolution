@@ -16,7 +16,7 @@ function AboutCompany() {
         if (count === targetValue) {
           clearInterval(interval);
         }
-      }, 170); 
+      }, 170);
     };
 
     incrementCounter(setExperience, 12);

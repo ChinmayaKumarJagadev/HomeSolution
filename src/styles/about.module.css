@@ -1,5 +1,5 @@
 .aboutContainer {
-  background-color: #f5fdedc4;
+  background-color: #f2f5efc4;
   color: #000;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
@@ -76,5 +76,8 @@
   }
   .aboutCompanyCircles{
     margin-bottom: 20px;
+    height: 170px;
+    width: 170px;
+    font-size: 12px;
   }
 }
