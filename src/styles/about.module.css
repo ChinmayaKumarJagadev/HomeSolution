@@ -27,22 +27,52 @@
 .aboutUSDesc {
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: 0.5px;
   padding: 10px 20px;
 }
 
-.aboutCompanyCircles{
+.aboutCompanyCircles {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   align-items: center;
+  text-align: center;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: rgb(80, 8, 8) 0px 6px 17px;
-  background-color: rgb(62, 42, 36);
-  color: #fff;
+  /* background-color: rgba(178, 143, 143, 0.83); */
+  box-shadow: 0px 8px 30px rgb(255, 92, 27);
+  color: #ef670b;
+  overflow: hidden;
+}
+
+.aboutMeTopContainer {
+  margin: 130px 20px 0 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+.aboutCardsContainer {
+  /* background-color: #d4e1dad4; */
+  box-shadow: 0px 2px 200px rgb(77, 120, 24);
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: 450px;
+}
+.cardTopContainerImage {
+  height: 150px !important;
+  object-fit: cover;
+}
+.aboutCardsContainerLast{
+  box-shadow: 0px 2px 200px rgb(77, 120, 24);
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: 450px;
+  margin-top: 120px;
 }
 
 @keyframes wave {
@@ -74,10 +104,24 @@
     padding-left: 50px;
     margin-top: -50px;
   }
-  .aboutCompanyCircles{
+  .aboutCompanyCircles {
     margin-bottom: 20px;
     height: 170px;
     width: 170px;
     font-size: 12px;
+  }
+  .aboutMeTopContainer{
+    margin: 80px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutCardsContainer{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 475px;
+  }
+  .aboutCardsContainerLast{
+    margin: 0 0px;
+    width: 100%;
   }
 }

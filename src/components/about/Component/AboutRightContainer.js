@@ -16,9 +16,8 @@ function AboutRightContainer() {
           <h3 class="font-semibold text-xl text-black leading-tight uppercase pt-1">
             Perfectly Customized
           </h3>
-          <p class="text-[17px] text-[20px] text-gray-500 mt-2 mr-10">
-            Crafting spaces that reflect your style, because your satisfaction
-            is our success.
+          <p class="text-[17px] text-gray-500 mt-2 mr-10">
+          Crafting spaces that reflect your unique style, because your satisfaction is our ultimate success.
           </p>
         </li>
         <li class="mb-[60px] ms-[50px]">
@@ -27,7 +26,7 @@ function AboutRightContainer() {
           </span>
           <h3 class="font-semibold leading-tight text-xl text-black leading-tight uppercase pt-1">Designed with You</h3>
           <p class="text-[17px] mt-2 mr-10">
-            Your input shapes the space. It’s your vision, made real.
+          Your vision transforms the space. You shape it, creating a reality that reflects your imagination.
           </p>
         </li>
         <li class="mb-[60px] ms-[50px]">
