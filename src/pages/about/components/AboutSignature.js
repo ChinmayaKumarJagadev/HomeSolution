@@ -15,7 +15,7 @@ function AboutSignature() {
           </h2>
         </div>
       </div>
-      <div className="relative w-[400px] h-[1px] md:mt-3 mb-5 overflow-visible m-auto ">
+      <div className="relative w-[300px] h-[1px] md:mt-3 mb-5 overflow-visible m-auto ">
         <div className="absolute top-0 left-0 w-full h-full bg-gray-100 rounded-full">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-400 to-transparent animate-wave"></div>
         </div>
