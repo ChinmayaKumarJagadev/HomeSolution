@@ -107,38 +107,38 @@ function Header() {
             </button>
             <ul className="flex flex-col space-y-4 uppercase tracking-wider mt-2]">
 
-            <li className="hover:bg-orange-700 p-2 rounded mt-20 text-xl m-3">
+            <li className="hover:bg-customRed p-2 rounded mt-20 text-xl m-3">
                 <Link href="/" className="flex items-center">
                  Home
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
 
-              <li className="hover:bg-orange-700 p-2 rounded mt-20 text-xl m-3">
-                <Link href="/" className="flex items-center">
+              <li className="hover:bg-customRed p-2 rounded mt-20 text-xl m-3">
+                <Link href="/about" className="flex items-center">
                   About{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+              <li className="hover:bg-customRed p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Services{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+              <li className="hover:bg-customRed p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Projects{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+              <li className="hover:bg-customRed p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Testimonials{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-orange-700 p-2 rounded text-xl m-4">
+              <li className="hover:bg-customRed p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Contact{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
@@ -166,7 +166,7 @@ function Header() {
                       height={30}
                       width={30}
                     />
-                    <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
+                    <span className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
                       0941 112 0710
                     </span>
                   </Link>
@@ -181,7 +181,7 @@ function Header() {
                       height={30}
                       width={30}
                     />
-                    <span className="text-[18px] ml-3 text-orange-600 font-bold md:text-3xl">
+                    <span className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
                       supportalok@gmail.com
                     </span>
                   </Link>

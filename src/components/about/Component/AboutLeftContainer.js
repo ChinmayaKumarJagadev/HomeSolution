@@ -27,7 +27,8 @@ function AboutLeftContainer() {
         perfection.
       </div>
 
-      <button className="flex font-bold bg-orange-500 py-2 px-5 text-white rounded-md mr-5 mt-5 ml-auto transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-orange-600">
+      <button className="flex font-bold py-2 px-5 text-white rounded-md mr-5 mt-5 ml-auto 
+      transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-orange-600" style={{ backgroundColor: "#e61313"}}>
         More About Us
         <Image
           src={RightArrow}

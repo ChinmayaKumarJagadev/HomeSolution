@@ -5,6 +5,7 @@ import styles from "../../../styles/about.module.css";
 import Image1 from "../../../assets/Images/alok-1.jpg";
 import Image2 from "../../../assets/Images/alok-2.jpg";
 import Image3 from "../../../assets/Images/alok-3.jpg";
+import Circle from "@/components/circle";
 
 function AboutTopContainer() {
   return (
@@ -23,23 +24,7 @@ function AboutTopContainer() {
           <div className="text-black text-[18px] md:text-[30px] font-bold mt-5">
             Home Construction
           </div>
-          <motion.div
-            style={{
-              width: "50px",
-              height: "50px",
-              backgroundColor: "orange",
-              margin: "5px 0 0 20px",
-              clipPath:
-                "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
-            }}
-            animate={{
-              opacity: [1, 0, 1], // Sequence of opacity changes
-            }}
-            transition={{
-              repeat: Infinity, // Repeat the animation indefinitely
-              duration: 1, // Duration of one blink cycle (in seconds)
-            }}
-          />
+          <Circle />
         </div>
 
         <div className="mt-3 text-[15px] text-left">
@@ -64,23 +49,7 @@ function AboutTopContainer() {
           <div className="text-black text-[18px] md:text-[30px] font-bold mt-5">
             Interior Design
           </div>
-          <motion.div
-            style={{
-              width: "50px",
-              height: "50px",
-              backgroundColor: "orange",
-              margin: "10px 0 0 20px",
-              clipPath:
-                "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
-            }}
-            animate={{
-              opacity: [1, 0, 1], // Sequence of opacity changes
-            }}
-            transition={{
-              repeat: Infinity, // Repeat the animation indefinitely
-              duration: 1, // Duration of one blink cycle (in seconds)
-            }}
-          />
+          <Circle />
         </div>
         <div className="mt-3 text-[15px] text-left">
           We bring spaces to life through exceptional interior design. With over
@@ -91,9 +60,7 @@ function AboutTopContainer() {
         </div>
       </div>
 
-      <div
-        className={styles.aboutCardsContainerLast}
-      >
+      <div className={styles.aboutCardsContainerLast}>
         <Image
           src={Image3}
           alt={`error`}
@@ -101,26 +68,10 @@ function AboutTopContainer() {
           className={styles.cardTopContainerImage}
         />
         <div className="flex">
-          <div className="text-black text-[18px] md:text-[30px] font-bold mt-5">
+          <div className="text-black text-[18px] md:text-[24px] font-bold mt-5">
             Maintainace and Delivery
           </div>
-          <motion.div
-            style={{
-              width: "50px",
-              height: "50px",
-              backgroundColor: "orange",
-              margin: "10px 0 0 0px",
-              clipPath:
-                "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
-            }}
-            animate={{
-              opacity: [1, 0, 1], // Sequence of opacity changes
-            }}
-            transition={{
-              repeat: Infinity, // Repeat the animation indefinitely
-              duration: 1, // Duration of one blink cycle (in seconds)
-            }}
-          />
+          <Circle />
         </div>
 
         <div className="mt-3 text-[15px] text-left">
