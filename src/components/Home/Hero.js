@@ -12,17 +12,17 @@ const images = [Image1, Image2, Image3];
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [textAnimation, setTextAnimation] = useState(true)
+  const [textAnimation, setTextAnimation] = useState(true);
 
-  useEffect(() =>{
-    setTimeout(() =>{
-      setTextAnimation(false)
-    }, 100)
-  }, [activeIndex])
+  useEffect(() => {
+    setTimeout(() => {
+      setTextAnimation(false);
+    }, 100);
+  }, [activeIndex]);
 
   const handleChange = (index) => {
     setActiveIndex(index);
-    setTextAnimation(true)
+    setTextAnimation(true);
   };
 
   return (
@@ -70,7 +70,14 @@ const Hero = () => {
               layout="responsive"
               className={styles.bgImage}
             />
-            <DesignInfo activeIndex={activeIndex} textAnimation={textAnimation} />
+            <DesignInfo
+              activeIndex={activeIndex}
+              textAnimation={textAnimation}
+            />
+            <div className={styles.arrow_container}>
+              <div className={styles.arrowDown}></div>
+              <div className={styles.arrowDown}></div>
+            </div>
             <div className={styles.overlay}></div>
           </div>
         ))}

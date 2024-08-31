@@ -4,17 +4,20 @@ import styles from "../../styles/about.module.css";
 import AboutTopContainer from "./components/AboutTopContainer";
 import AboutMiddleContainer from "./components/AboutMiddleContainer";
 import AboutVideoContainer from "./components/AboutVideoContainer";
+import Hero from "@/components/Home/Hero";
+import AboutSignature from "./components/AboutSignature";
 
 function ABoutMain() {
   return (
     <div>
       <Header />
+      <Hero />
       <AboutTopContainer />
-      <div className={styles.arrow_container}>
-        <div className={styles.arrowDown}></div>
-        <div className={styles.arrowDown}></div>
-      </div>
+      <hr className="mt-[70px]" />
       <AboutMiddleContainer />
+      <hr className="mt-[70px]" />
+      <AboutSignature />
+      <hr className="mt-[70px]" />
       <AboutVideoContainer />
     </div>
   );

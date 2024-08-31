@@ -19,10 +19,7 @@ function AboutMiddleContainer() {
           delivering unparalleled craftsmanship and innovative solutions to
           clients worldwide. Our dedicated team blends creativity with
           precision, ensuring that every project reflects the highest standards
-          of quality and design excellence. As we expand our reach, we aim to
-          set new benchmarks in the industry, creating inspiring and functional
-          spaces that meet the unique needs of our diverse clientele. Join us as
-          we shape the future of construction and interior design on a global
+          of quality and design excellence.
           scale.
         </div>
       </div>

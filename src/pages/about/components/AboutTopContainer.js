@@ -12,7 +12,7 @@ function AboutTopContainer() {
     <div className={styles.aboutMeTopContainer}>
       <div
         className={styles.aboutCardsContainer}
-        style={{ marginTop: "120px" }}
+        style={{ marginTop: "150px" }}
       >
         <Image
           src={Image1}
@@ -24,10 +24,10 @@ function AboutTopContainer() {
           <div className="text-black text-[18px] md:text-[30px] font-bold mt-5">
             Home Construction
           </div>
-          <Circle />
+          {/* <Circle /> */}
         </div>
 
-        <div className="mt-3 text-[15px] text-left">
+        <div className="mt-3 text-[15px] text-left text-slate-500">
           At HomeSolution.com, construction is at the heart of what we do. With
           over a decade of experience, we specialize in delivering top-quality
           construction services that meet the highest standards of safety and
@@ -49,9 +49,9 @@ function AboutTopContainer() {
           <div className="text-black text-[18px] md:text-[30px] font-bold mt-5">
             Interior Design
           </div>
-          <Circle />
+          {/* <Circle /> */}
         </div>
-        <div className="mt-3 text-[15px] text-left">
+        <div className="mt-3 text-[15px] text-left text-slate-500">
           We bring spaces to life through exceptional interior design. With over
           a decade of expertise, our team is dedicated to creating environments
           that are both stylish and functional. We blend creativity with
@@ -71,10 +71,10 @@ function AboutTopContainer() {
           <div className="text-black text-[18px] md:text-[24px] font-bold mt-5">
             Maintainace and Delivery
           </div>
-          <Circle />
+          {/* <Circle /> */}
         </div>
 
-        <div className="mt-3 text-[15px] text-left">
+        <div className="mt-3 text-[15px] text-left text-slate-500">
           We pride ourselves on providing comprehensive maintenance and delivery
           services for both construction and interior design projects. Our
           dedicated team ensures that every aspect of your project, from initial
