@@ -68,7 +68,7 @@ function AboutSignature() {
           </div>
           <div className="mt-[0px]">
             <em>
-              <strong className="text-customRed">
+              <strong className="text-customRed text-[16px] md:text-2xl">
                 Alok Rath – Managing Director
               </strong>
             </em>
