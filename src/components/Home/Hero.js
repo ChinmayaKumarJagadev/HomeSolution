@@ -3,9 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../../styles/hero.module.css";
-import Image1 from "../../assets/Images/alok-1.jpg";
-import Image2 from "../../assets/Images/alok-2.jpg";
-import Image3 from "../../assets/Images/alok-3.jpg";
+import Image1 from "../../assets/Images/11.png";
+import Image2 from "../../assets/Images/122.jpg";
+import Image3 from "../../assets/Images/33.png";
 import DesignInfo from "./DesignInfo";
 
 const images = [Image1, Image2, Image3];
@@ -32,9 +32,9 @@ const Hero = () => {
         axis="horizontal"
         showStatus={false}
         onChange={handleChange}
-        infiniteLoop={true}
-        autoPlay={true}
-        interval={7000}
+        // infiniteLoop={true}
+        // autoPlay={true}
+        // interval={7000}
         stopOnHover={false}
         renderArrowPrev={(onClickHandler, hasPrev) =>
           hasPrev && (

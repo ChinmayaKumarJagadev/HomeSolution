@@ -7,18 +7,18 @@ function DesignInfo({ activeIndex, textAnimation }) {
   console.log(textAnimation, 'design components')
   const designInfo = [
     {
-      title: "Construction Work",
-      desc: "Building best foundations",
+      title: "Creating Reliable Homes for You and Your Family",
+      // desc: "Building best foundations",
       text: "Book A Consultation",
     },
     {
-      title: "Interior Planning",
-      desc: "Transforming spaces into stylish",
+      title: "Designing Interiors That Reflect Your Style and Enhance Your Life",
+      // desc: "Transforming spaces into stylish",
       text: "Book A Consultation",
     },
     {
-      title: "Maintainance Planning",
-      desc: "Keep your home in top shape.",
+      title: "Expert Maintenance for a Comfortable and Well-Kept Home",
+      // desc: "Keep your home in top shape.",
       text: "Book A Consultation",
     },
   ];
@@ -31,7 +31,7 @@ function DesignInfo({ activeIndex, textAnimation }) {
         <div className={textAnimation ?  "" : styles.designTitle}>
           {title}
         </div>
-        <div className={textAnimation ?  "" : styles.designDesc}>{desc}</div>
+        {/* <div className={textAnimation ?  "" : styles.designDesc}>{desc}</div> */}
         <div className={textAnimation ?  "" : styles.designButton}>
           <button>{text}</button>
           <Image src={RightArrow} alt="error" className={styles.rightArrow} />
