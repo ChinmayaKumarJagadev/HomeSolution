@@ -11,7 +11,7 @@ import {
 import Modal from "react-modal";
 import { motion } from "framer-motion";
 import styles from "../../styles/header.module.css";
-import logo from "../../assets/Images/logo.png";
+import logo from "../../assets/Images/homeLogo.svg";
 import Phone from "../../assets/Images/phone-call.png";
 import Mail from "../../assets/Images/mail.png";
 import SocialIcons from "./SocialIcons";
@@ -39,9 +39,9 @@ function Header() {
 
           {/* <div className={styles.logo}>H</div> */}
         </div>
-        <div className={styles.header_text}>
+        {/* <div className={styles.header_text}>
           <Link href="/">HomeSolution</Link>
-        </div>
+        </div> */}
 
         {/* Desktop Menu */}
         <ul className={`${styles.navLinks} hidden lg:flex`}>

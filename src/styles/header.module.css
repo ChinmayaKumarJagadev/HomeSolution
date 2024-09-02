@@ -21,6 +21,13 @@
   font-size: 1.5rem;
   text-decoration: none;
 }
+.website_logo{
+  position: absolute;
+  top: -20px;
+  height: 200px;
+  width: 200px;
+  left: 0;
+}
 
 .navLinks {
   list-style: none;
@@ -173,8 +180,13 @@
   .navbarTop {
     padding: 11.5px 1rem;
   }
-  .website_logo {
-    margin-left: -20px;
+
+  .website_logo{
+    position: absolute;
+    top: 5px;
+    height: 150px;
+    width: 150px;
+    left: 0;
   }
   .navbar {
     padding: 0px 20px;
