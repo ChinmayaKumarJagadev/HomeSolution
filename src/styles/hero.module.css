@@ -141,22 +141,22 @@
 
 @media screen and (max-width: 1024px) {
   .hero_container {
-    height: 60vh;
+    height: 45vh;
   }
   .bgImage {
     object-position: center;
-    height: 60vh !important;
+    height: 45vh !important;
   }
   .imageContainer {
-    height: 60vh;
+    height: 45vh;
   }
   .customArrowPrev {
-    top: 60%;
+    top: 45%;
     font-size: 20px;
     padding: 10px 20px;
   }
   .customArrowNext {
-    top: 60%;
+    top: 45%;
     font-size: 20px;
     padding: 10px 20px;
   }
