@@ -11,7 +11,7 @@ import {
 import Modal from "react-modal";
 import { motion } from "framer-motion";
 import styles from "../../styles/header.module.css";
-import logo from "../../assets/Images/logo1.png";
+import logo from "../../assets/Images/logo.png";
 import Phone from "../../assets/Images/phone-call.png";
 import Mail from "../../assets/Images/mail.png";
 import SocialIcons from "./SocialIcons";
@@ -29,15 +29,15 @@ function Header() {
       {/* Main Navbar */}
       <nav className={styles.navbar}>
         <div>
-          {/* <Image
+          <Image
             src={logo}
             alt="error"
-            height={100}
-            width={150}
+            height={50}
+            width={100}
             className={styles.website_logo}
-          /> */}
+          />
 
-          <div className={styles.logo}>H</div>
+          {/* <div className={styles.logo}>H</div> */}
         </div>
         <div className={styles.header_text}>
           <Link href="/">HomeSolution</Link>
@@ -100,7 +100,7 @@ function Header() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full max-w-full bg-white shadow-xl text-textColor gap-5 overflow-auto lg:hidden"
+            className="relative w-full max-w-full bg-black shadow-xl text-textColor gap-5 overflow-auto lg:hidden"
             style={{ height: "100%" }}
           >
             <button
