@@ -12,7 +12,8 @@
   /* justify-content: space-between; */
   align-items: center;
   padding: 0 2rem;
-  /* height: 100px; */
+  height: 100px;
+  width: 100%;
 }
 
 .logo a {
@@ -194,4 +195,10 @@
   /* .menuModal {
     overflow: auto; 
   } */
+}
+
+@media screen and (max-width: 1200px) {
+  .header_text {
+    display: none;
+  }
 }

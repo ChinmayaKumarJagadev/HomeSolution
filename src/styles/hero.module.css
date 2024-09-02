@@ -2,7 +2,7 @@
   height: calc(100vh - 142px);
   overflow-x: hidden;
   width: 100%;
-  margin-top: 142px;
+  /* margin-top: 142px; */
   position: relative;
 }
 .carouselItem {
