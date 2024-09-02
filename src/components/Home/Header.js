@@ -100,7 +100,7 @@ function Header() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full max-w-full bg-black shadow-xl text-textColor gap-5 overflow-auto lg:hidden"
+            className="relative w-full max-w-full bg-black shadow-xl text-white gap-5 overflow-auto lg:hidden"
             style={{ height: "100%" }}
           >
             <button
@@ -115,38 +115,38 @@ function Header() {
             <li className="hover:bg-customRed hover:text-white p-2 rounded mt-20 text-xl m-3">
                 <Link href="/" className="flex items-center">
                  Home
-                  <FaChevronRight className="text-textColor text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
 
               <li className="hover:bg-customRed hover:text-white p-2 rounded mt-20 text-xl m-3">
                 <Link href="/about" className="flex items-center">
                   About{" "}
-                  <FaChevronRight className="text-textColor text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Services{" "}
-                  <FaChevronRight className="text-textColor text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Projects{" "}
-                  <FaChevronRight className="text-textColor text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Testimonials{" "}
-                  <FaChevronRight className="text-textColor text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Contact{" "}
-                  <FaChevronRight className="text-textColor hover:text-blue-500 text-sm ml-auto mr-[15px]" />
+                  <FaChevronRight className="text-white hover:text-blue-500 text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
 
