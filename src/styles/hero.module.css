@@ -161,13 +161,13 @@
     padding: 10px 20px;
   }
   .designInfo{
-    top: 60%;
+    top: 73%;
   }
   .designInfoContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 0px;
   }
   .designTitle {
     font-size: 18px;
