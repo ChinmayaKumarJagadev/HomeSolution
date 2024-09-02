@@ -1,8 +1,8 @@
 .hero_container {
-  height: calc(100vh - 142px);
+  height: calc(100vh - 141px);
   overflow-x: hidden;
   width: 100%;
-  /* margin-top: 142px; */
+  margin-top: 141px;
   position: relative;
 }
 .carouselItem {
@@ -10,7 +10,7 @@
 }
 
 .bgImage {
-  height: calc(100vh - 142px) !important;
+  height: calc(100vh - 141px) !important;
   width: 100% !important;
   object-fit: cover;
   /* box-shadow: rgba(138, 92, 231, 0.863) 0px 34px 10px; */
@@ -141,22 +141,22 @@
 
 @media screen and (max-width: 1024px) {
   .hero_container {
-    height: 65vh;
+    height: 60vh;
   }
   .bgImage {
     object-position: center;
-    height: 65vh !important;
+    height: 60vh !important;
   }
   .imageContainer {
-    height: 65vh;
+    height: 60vh;
   }
   .customArrowPrev {
-    top: 65%;
+    top: 60%;
     font-size: 20px;
     padding: 10px 20px;
   }
   .customArrowNext {
-    top: 65%;
+    top: 60%;
     font-size: 20px;
     padding: 10px 20px;
   }
