@@ -195,6 +195,9 @@
   /* .menuModal {
     overflow: auto; 
   } */
+  .navbar {
+   height: 90px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
