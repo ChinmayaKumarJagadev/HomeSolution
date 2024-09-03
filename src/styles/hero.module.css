@@ -283,13 +283,13 @@
     left: 70%;
     animation-duration: 15s;
     animation-delay: 5s;
-    font-size: 10px;
+    font-size: 5px;
   }
   .hero_container::before {
     left: 10%;
     animation-duration: 10s;
     animation-delay: 0s;
-    font-size: 10px;
+    font-size: 5px;
   }
   @keyframes slideInLeft {
     0% {
