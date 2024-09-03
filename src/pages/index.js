@@ -4,6 +4,7 @@ import Header from "../components/Home/Header";
 import Hero from "../components/Home/Hero";
 import About from "@/components/about";
 import Construction from "@/components/Home/Construction";
+import HomeConstruction from "@/components/Home/HomeConstruction";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Construction />
-      <hr className="mt-10"/>
+      <hr className="mt-10" />
+      <HomeConstruction />
       {/* <About /> */}
     </div>
   );

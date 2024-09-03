@@ -52,11 +52,11 @@ function Construction() {
               <div className="h-[50px] md:h-[100px]">
                 <div className={styles.cardTitleConstruction}>{item.title}</div>
                 <div className={styles.cardDescConstruction}>{item.desc}</div>
-              </div>
 
-              <button className={styles.seeMoreConstructionText}>
-                See more
-              </button>
+                <button className={styles.seeMoreConstructionText}>
+                  See more
+                </button>
+              </div>
             </div>
           );
         })}

@@ -50,19 +50,18 @@
 .cardTitleConstruction {
   padding: 20px 20px 5px 20px;
   font-family: "AvenirNextLTPro-medium";
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   font-weight: bold;
 }
 
 .cardDescConstruction {
-  padding: 0 20px 0px 20px;
   font-family: "AvenirNextLTPro-regular";
   font-size: 16px;
   text-align: center;
 }
 .seeMoreConstructionText {
-  padding: 10px 10px;
+  padding: 0px 10px 10px 10px;
   border-radius: 8px;
   float: right;
   margin-right: 20px;
