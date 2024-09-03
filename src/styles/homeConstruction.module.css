@@ -1,6 +1,6 @@
 .homeConstructionContainer {
   padding: 20px 20px 0 20px;
-  margin-top: 30px;
+  margin-top: 70px;
   background-color: rgb(230, 232, 255);
 }
 
@@ -166,6 +166,9 @@
     gap: 18px;
   }
   .homeConstructionCard{
-    width: none;
+    min-width: 200px;
+  }
+  .scrollButton{
+    font-size: 25px;
   }
 }

@@ -14,7 +14,6 @@ export default function Home() {
       <Header />
       <Hero />
       <Construction />
-      <hr className="mt-10" />
       <HomeConstruction />
       {/* <About /> */}
     </div>
