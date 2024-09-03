@@ -13,7 +13,94 @@
   height: calc(100vh - 141px) !important;
   width: 100% !important;
   object-fit: cover;
+  background-repeat: repeat-x;
+  /* background-position: 
+    0 20%,
+    0 100%,
+    0 50%,
+    0 100%,
+    0 0;
+  background-size: 
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  animation: 50s para infinite linear; */
   /* box-shadow: rgba(138, 92, 231, 0.863) 0px 34px 10px; */
+}
+
+.hero_container::before,
+.hero_container::after {
+  content: "❄";
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+  animation: fall linear infinite;
+}
+
+.hero_container::before {
+  left: 10%;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  font-size: 20px;
+}
+
+.hero_container::after {
+  left: 70%;
+  animation-duration: 15s;
+  animation-delay: 5s;
+  font-size: 25px;
+}
+
+/* More snowflakes */
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+  animation: fall linear infinite;
+}
+
+.snowflake:nth-child(odd) {
+  animation-duration: 15s;
+  animation-delay: calc(var(--i) * 1s);
+}
+
+.snowflake:nth-child(even) {
+  animation-duration: 10s;
+  animation-delay: calc(var(--i) * 1.5s);
+}
+
+.snowflake:nth-child(1) { left: 10%; font-size: 10px; }
+.snowflake:nth-child(2) { left: 20%; font-size: 10px; }
+.snowflake:nth-child(3) { left: 30%; font-size: 10px; }
+.snowflake:nth-child(4) { left: 40%; font-size: 10px; }
+.snowflake:nth-child(5) { left: 50%; font-size: 10px; }
+.snowflake:nth-child(6) { left: 60%; font-size: 10px; }
+.snowflake:nth-child(7) { left: 70%; font-size: 10px; }
+.snowflake:nth-child(8) { left: 80%; font-size: 10px; }
+.snowflake:nth-child(9) { left: 90%; font-size: 10px; }
+.snowflake:nth-child(10) { left: 25%; font-size: 10px; }
+.snowflake:nth-child(11) { left: 35%; font-size: 10px; }
+.snowflake:nth-child(12) { left: 45%; font-size: 10px; }
+.snowflake:nth-child(13) { left: 55%; font-size:10px; }
+.snowflake:nth-child(14) { left: 65%; font-size: 10px; }
+.snowflake:nth-child(15) { left: 75%; font-size: 10px; }
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(65vh) rotate(360deg);
+  }
 }
 
 .customArrowPrev {
@@ -52,15 +139,15 @@
   /* left: 50px;  */
   z-index: 3;
   color: #fff;
-  background-color: rgba(39, 37, 37, 0.426);
+  background-color: rgba(39, 37, 37, 0.486);
   width: 100%;
-  top: 70%;
-  /* height: 100vh; */
-  bottom: 0;
+  top: 0%;
+  height: 100%;
+  padding-bottom: 20px;
   display: flex;
   /* clip-path: polygon(0% 69%,100% 69%,100% 90%,0% 91%); */
   justify-content: center;
-  /* align-items: center; */
+  align-items: end;
 }
 
 .designTitle {
@@ -161,7 +248,7 @@
     padding: 10px 20px;
   }
   .designInfo{
-    top: 65%;
+    top: 0%;
   }
   .designInfoContainer{
     display: flex;
@@ -171,11 +258,9 @@
   }
   .designTitle {
     font-size: 18px;
-    top: 10px;
-    margin-top: 35px;
     /* width: 80%; */
     padding: 0 40px;
-    margin: 0 auto;
+    margin: 50% 0 0 auto;
     text-align: center;
   }
   /* .designDesc {
@@ -192,6 +277,13 @@
   .rightArrow {
     height: 22px;
     width: 17px !important;
+  }
+
+  .hero_container::after {
+    left: 70%;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    font-size: 15px;
   }
   @keyframes slideInLeft {
     0% {

@@ -20,13 +20,21 @@ const Hero = () => {
     }, 100);
   }, [activeIndex]);
 
+
   const handleChange = (index) => {
     setActiveIndex(index);
     setTextAnimation(true);
   };
 
+  const snowflakes = Array.from({ length: 15 }).map((_, i) => (
+    <div className={styles.snowflake} style={{ '--i': i }} key={i}>
+      ❄
+    </div>
+  ));
+
   return (
     <div className={styles.hero_container}>
+        {snowflakes}
       <Carousel
         showThumbs={false}
         axis="horizontal"
