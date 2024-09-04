@@ -1,5 +1,7 @@
 .interiorContainer {
   background-color: rgb(230, 232, 255);
+  margin-bottom: 20px;
+  padding-bottom: 20PX;
 }
 .interiorTitle {
   font-size: 34px;
@@ -31,6 +33,8 @@
 .scrollContainerInterior {
   width: 100%;
   overflow: auto;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
 }
 
 .interiorImageContainer {
@@ -197,6 +201,8 @@
   .scrollContainerInterior {
     width: 100%;
     overflow: auto;
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;
   }
   .interiorImageContainer {
     overflow-x: auto;
