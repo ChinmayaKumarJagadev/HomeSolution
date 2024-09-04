@@ -138,6 +138,7 @@
   font-weight: bold;
   z-index: 2;
   position: relative;
+  cursor: pointer;
 }
 .homeOffers {
   position: absolute;

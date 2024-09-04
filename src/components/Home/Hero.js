@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "../../styles/hero.module.css";
 import Image1 from "../../assets/Images/11.png";
 import Image2 from "../../assets/Images/122.jpg";
-import Image3 from "../../assets/Images/33.png";
+import Image3 from "../../assets/Images/maintainance.jpg";
 import DesignInfo from "./DesignInfo";
 
 const images = [Image1, Image2, Image3];

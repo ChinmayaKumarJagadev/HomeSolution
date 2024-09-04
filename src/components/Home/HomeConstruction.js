@@ -13,12 +13,12 @@ import Star from "../star";
 const HomeConstruction = () => {
   const data = [
     { title: "Personal Home", image: cons1, star: "★★★★★", offer: "Save 54%" },
+    { title: "Flats | 2BHK 3BHK", image: cons7, star: "★★★★" , offer: "Save 34%"},
     { title: "Restaurants", image: cons2, star: "★★★★★", offer: "Save 64%" },
     { title: "Hospitals", image: cons3, star: "★★★★", offer: "Save 54%" },
     { title: "Hotels", image: cons4, star: "★★★★★", offer: "Save 54%" },
     { title: "Shops", image: cons5, star: "★★★★" , offer: "Save 29%"},
     { title: "Office", image: cons6, star: "★★★★★", offer: "Save 52%" },
-    { title: "Flats | 2BHK 3BHK", image: cons7, star: "★★★★" , offer: "Save 34%"},
   ];
 
   const scrollLeft = () => {

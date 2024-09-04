@@ -28,11 +28,11 @@ function DesignInfo({ activeIndex, textAnimation }) {
   return (
     <div className={styles.designInfo}>
       <div className={styles.designInfoContainer}>
-        <div className={textAnimation ?  "" : styles.designTitle}>
+        <div className={styles.designTitle}>
           {title}
         </div>
-        {/* <div className={textAnimation ?  "" : styles.designDesc}>{desc}</div> */}
-        <div className={textAnimation ?  "" : styles.designButton}>
+        {/* <div className={styles.designDesc}>{desc}</div> */}
+        <div className={styles.designButton}>
           <button>{text}</button>
           <Image src={RightArrow} alt="error" className={styles.rightArrow} />
         </div>

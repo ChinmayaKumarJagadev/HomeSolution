@@ -1,0 +1,286 @@
+.interiorContainer {
+  background-color: rgb(230, 232, 255);
+}
+.interiorTitle {
+  font-size: 34px;
+  color: #000;
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  margin: 0px 0 0px auto;
+  letter-spacing: 0px;
+  font-family: "AvenirNextLTPro-medium";
+  font-weight: bold;
+  padding: 50px 100px 0 100px;
+  /* padding: 0 70px; */
+}
+.interiorDesc {
+  font-size: 18px;
+  color: #3d466b;
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  margin: 0px 0 0px auto;
+  letter-spacing: 0px;
+  font-family: "AvenirNextLTPro-regular";
+  font-weight: bold;
+  padding: 0px 100px 0 100px;
+  /* padding: 0 70px; */
+}
+
+.scrollContainerInterior {
+  width: 100%;
+  overflow: auto;
+}
+
+.interiorImageContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 30px 50px 0 50px;
+  justify-content: center;
+  margin-top: 0px;
+  position: relative;
+}
+
+.interiorImage1 {
+  border-radius: 8px;
+  height: 300px;
+  width: 22%;
+  object-fit: cover;
+}
+.interiorImage2 {
+  border-radius: 8px;
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+}
+.interiorImage3 {
+  border-radius: 8px;
+  height: 300px;
+  width: 22%;
+  object-fit: cover;
+}
+.interiorImage4 {
+  border-radius: 8px;
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+}
+.interiorImage5 {
+  border-radius: 8px;
+  height: 300px;
+  width: 45%;
+  object-fit: cover;
+}
+.interiorImage6 {
+  border-radius: 8px;
+  height: 300px;
+  width: 30%;
+  object-fit: cover;
+}
+.interiorImage7 {
+  border-radius: 8px;
+  height: 300px;
+  width: 30%;
+  object-fit: cover;
+}
+.interiorImage8 {
+  border-radius: 8px;
+  height: 300px;
+  width: 34.5%;
+  object-fit: cover;
+}
+.livingRoomText {
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bedRoomText {
+  position: absolute;
+  top: 30%;
+  left: 27.3%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ceilingRoomText {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.kitchenRoomText {
+  position: absolute;
+  top: 62.7%;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wodrobeText {
+  position: absolute;
+  top: 62.7%;
+  left: 53.7%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dinningRoomText {
+  position: absolute;
+  top: 95.5%;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bathRoomText {
+  position: absolute;
+  top: 95.5%;
+  left: 34.7%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.balconyText {
+  position: absolute;
+  top: 95.5%;
+  left: 63.5%;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .interiorTitle {
+    padding: 50px 20px 0 20px;
+    font-size: 24px;
+    /* padding: 0 70px; */
+  }
+  .interiorDesc {
+    padding: 10px 20px 0 20px;
+    font-size: 16px;
+    /* padding: 0 70px; */
+  }
+
+  .scrollContainerInterior {
+    width: 100%;
+    overflow: auto;
+  }
+  .interiorImageContainer {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 0 10px;
+    justify-content: flex-start;
+    gap: 14px;
+    width: 200%;
+  }
+  .interiorImage1 {
+    width: calc(25% - 10px);
+    height: 150px;
+  }
+  .interiorImage2 {
+    width: calc(25% - 10px);
+    height: 150px;
+  }
+  .interiorImage3 {
+    width: calc(50% - 10px);
+    height: 150px;
+  }
+  .interiorImage4 {
+    width: calc(45% - 10px);
+    height: 150px;
+  }
+  .interiorImage5 {
+    width: calc(55% - 10px);
+    height: 150px;
+  }
+  .interiorImage6 {
+    width: calc(25% - 10px);
+    height: 150px;
+  }
+  .interiorImage7 {
+    width: calc(25% - 10px);
+    height: 150px;
+  }
+  .interiorImage8 {
+    width: calc(50% - 10px);
+    height: 150px;
+  }
+  .livingRoomText {
+    top: 23%;
+    left: 2%;
+    font-size: 14px;
+  }
+  .bedRoomText {
+    top: 23%;
+    left: 27%;
+    font-size: 14px;
+  }
+
+  .ceilingRoomText {
+    top: 23%;
+    left: 52%;
+    font-size: 14px;
+  }
+  .kitchenRoomText {
+    top: 57%;
+    left: 2%;
+    font-size: 14px;
+  }
+  .wodrobeText {
+    top: 57%;
+    left: 46.5%;
+    font-size: 14px;
+  }
+
+  .dinningRoomText {
+    top: 91.5%;
+    left: 2%;
+    font-size: 14px;
+  }
+  .bathRoomText {
+    top: 91.5%;
+    left: 27%;
+    font-size: 14px;
+  }
+
+  .balconyText {
+    top: 91.5%;
+    left: 52%;
+    font-size: 14px;
+  }
+}
