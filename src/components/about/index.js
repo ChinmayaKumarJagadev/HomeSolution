@@ -12,7 +12,7 @@ function Services() {
         <AboutRightContainer />
       </div>
 
-      <AboutCompany />
+      {/* <AboutCompany /> */}
     </div>
   );
 }

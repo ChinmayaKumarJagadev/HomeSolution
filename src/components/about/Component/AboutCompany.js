@@ -16,7 +16,7 @@ function AboutCompany() {
         if (count === targetValue) {
           clearInterval(interval);
         }
-      }, 170);
+      }, 50);
     };
 
     incrementCounter(setExperience, 12);
@@ -29,7 +29,7 @@ function AboutCompany() {
     <div className="flex flex-wrap px-10 justify-around">
       <div className={styles.aboutCompanyCircles}>
         <div className="text-4xl font-bold">{experience} +</div>
-        <div className="text-md">Years Of Experience</div>
+        <div className="text-lg">Years Of Experience</div>
       </div>
 
       <div className={styles.aboutCompanyCircles}>
@@ -43,7 +43,7 @@ function AboutCompany() {
       </div>
 
       <div className={styles.aboutCompanyCircles}>
-        <div className="text-4xl font-bold">{awards}</div>
+        <div className="text-4xl font-bold">{awards} +</div>
         <div className="text-md">Awards</div>
       </div>
     </div>

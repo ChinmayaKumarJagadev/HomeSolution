@@ -19,7 +19,7 @@ export default function Home() {
       <HomeConstruction />
       <InteriorSection />
       <OfferSection/>
-      {/* <About /> */}
+      <About />
     </div>
   );
 }
