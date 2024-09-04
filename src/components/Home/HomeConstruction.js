@@ -12,7 +12,7 @@ import Star from "../star";
 
 const HomeConstruction = () => {
   const data = [
-    { title: "Personal Home Construction", image: cons1, star: "★★★★★", offer: "Save 54%" },
+    { title: "Personal Home", image: cons1, star: "★★★★★", offer: "Save 54%" },
     { title: "Restaurants", image: cons2, star: "★★★★★", offer: "Save 64%" },
     { title: "Hospitals", image: cons3, star: "★★★★", offer: "Save 54%" },
     { title: "Hotels", image: cons4, star: "★★★★★", offer: "Save 54%" },

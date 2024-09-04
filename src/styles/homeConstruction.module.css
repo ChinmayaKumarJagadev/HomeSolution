@@ -162,13 +162,24 @@
   .scrollWrapper {
     padding: 0px;
   }
-  .scrollContainer{
+  .scrollContainer {
     gap: 18px;
   }
-  .homeConstructionCard{
+  .homeConstructionCard {
     min-width: 200px;
+    width: 68%;
   }
-  .scrollButton{
+  .scrollButton {
     font-size: 25px;
+  }
+  .homeConstructionCardTitle{
+    font-size: 15px;
+  }
+  .starRating {
+    font-size: 20px;
+  }
+
+  .checknowText {
+    font-size: 15px;
   }
 }
