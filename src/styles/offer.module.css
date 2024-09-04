@@ -1,0 +1,119 @@
+.offerContainer {
+  margin: 80px 0 0 0;
+  padding: 0 150px;
+}
+
+.offerTitle {
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+  margin: 0px auto 0px auto;
+  letter-spacing: 0px;
+  font-family: "AvenirNextLTPro-medium";
+  font-weight: bold;
+  padding: 0 70px;
+  justify-content: center;
+}
+
+/* Slider Container */
+.slidernew {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+.offerImages {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  object-fit: cover;
+}
+/* Slide Track */
+.slide_track {
+  display: flex;
+  width: calc(
+    250px * 8
+  ); /* Number of slides (including duplicates) * slide width */
+  animation: scrollLeft 30s linear infinite;
+  margin: 30px 10px;
+  justify-content: center;
+  /* transform: translateX(-25%);  */
+}
+
+/* Individual Slide */
+.slides {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  background: #fff;
+  color: #3d466b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: o auto;
+  text-align: center;
+  box-shadow: rgba(7, 7, 7, 0.559) 0px 4px 10px;
+  cursor: pointer;
+}
+
+.offerImageContainer {
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  background-color: rgba(246, 59, 42, 0.2);
+  padding: 0 20px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.slidernew:hover .slide_track {
+    animation-play-state: paused;
+  }
+
+/* Keyframes for scrolling effect */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(50%); /* Start from center */
+  }
+  100% {
+    transform: translateX(-75%); /* End after one full scroll */
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .offerContainer {
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .slides {
+    width: 150px;
+  }
+  .offerTitle {
+    padding: 0 0px;
+    font-size: 24px;
+    float: left;
+  }
+}

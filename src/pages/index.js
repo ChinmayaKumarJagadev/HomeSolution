@@ -6,6 +6,7 @@ import About from "@/components/about";
 import Construction from "@/components/Home/Construction";
 import HomeConstruction from "@/components/Home/HomeConstruction";
 import InteriorSection from "@/components/Home/InteriorSection";
+import OfferSection from "@/components/Home/OfferSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Construction />
       <HomeConstruction />
       <InteriorSection />
+      <OfferSection/>
       {/* <About /> */}
     </div>
   );

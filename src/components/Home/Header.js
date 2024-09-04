@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { IoLogoDesignernews } from "react-icons/io";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -36,6 +37,7 @@ function Header() {
             width={100}
             className={styles.website_logo}
           />
+          
 
           {/* <div className={styles.logo}>H</div> */}
         </div>
