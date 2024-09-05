@@ -47,7 +47,7 @@ function leftContaner() {
           width={15}
           className="mt-1 h-[15px] cursor-pointer"
         />
-        <div className="cursor-pointer">homesolution@gmail.com</div>
+        <a href="mailto:homesolution@gmail.com" className="cursor-pointer">homesolution@gmail.com</a>
       </div>
 
       <div className="flex gap-[35px]">

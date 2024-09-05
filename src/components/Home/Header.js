@@ -188,9 +188,9 @@ function Header() {
                       height={30}
                       width={30}
                     />
-                    <span className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
+                    <a href="mailto:supportalok@gmail.com" className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
                       supportalok@gmail.com
-                    </span>
+                    </a>
                   </Link>
                 </div>
 
