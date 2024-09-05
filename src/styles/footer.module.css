@@ -49,9 +49,9 @@
   margin-top: 30px;
 }
 
-.arrowFooter{
- color: #f63b2a;
- font-size: 25px;   
+.arrowFooter {
+  color: #f63b2a;
+  font-size: 25px;
 }
 @media only screen and (max-width: 1024px) {
   .footerContainer {
@@ -60,17 +60,21 @@
     padding-top: 20px;
   }
 
-  .leftFooterContainer{
+  .leftFooterContainer {
     padding: 0 20px;
     font-size: 15px;
   }
-  .middleFooterContainer{
-    margin-left: 4%;
+  .middleFooterContainer {
+    margin-left: 5%;
     margin-top: 20px;
     font-size: 15px;
   }
-  .linksFooterContainer{
-    margin-left: 4%;
+  .linksFooterContainer {
+    margin-left: 5%;
     font-size: 15px;
+  }
+
+  .footerButton {
+    margin-left: 6px;
   }
 }
