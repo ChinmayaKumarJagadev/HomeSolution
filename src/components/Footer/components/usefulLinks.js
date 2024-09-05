@@ -8,23 +8,23 @@ function LastContainer() {
       <div className="text-2xl font-bold text-customRed">USEFUL LINKS</div>
 
       <div className="flex gap-2 mt-2">
-        <MdKeyboardArrowRight className="mt-1" />
-        <div className="cursor-pointer">Home</div>
+        <MdKeyboardArrowRight className={styles.arrowFooter} />
+        <div className="cursor-pointer hover:underline">Home</div>
       </div>
 
       <div className="flex gap-2">
-        <MdKeyboardArrowRight className="mt-1" />
-        <div className="cursor-pointer">Services</div>
+        <MdKeyboardArrowRight className={styles.arrowFooter}  />
+        <div className="cursor-pointer hover:underline">Services</div>
       </div>
 
       <div className="flex gap-2">
-        <MdKeyboardArrowRight className="mt-1" />
-        <div className="cursor-pointer">Projects</div>
+        <MdKeyboardArrowRight className={styles.arrowFooter}  />
+        <div className="cursor-pointer hover:underline">Projects</div>
       </div>
 
       <div className="flex gap-2">
-        <MdKeyboardArrowRight className="mt-1" />
-        <div className="cursor-pointer">About</div>
+        <MdKeyboardArrowRight className={styles.arrowFooter}  />
+        <div className="cursor-pointer hover:underline">About</div>
       </div>
 
   
