@@ -1,7 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import styles from "../../../styles/footer.module.css";
 import phone from "../../../assets/Images/phone-call.png";
 import mail from "../../../assets/Images/mail2.png";
@@ -17,19 +22,32 @@ function leftContaner() {
         <Image src={loc} alt="err" width={15} className="mt-1 h-[15px]" />
         <div>
           Dhauli Heritage Basinomata Bihar Sundarpada, <br />
-          Flat no 502 <br />
-          Odisha, Bhubaneswar <br /> Pin - 751002
+          Flat no 502, Odisha, Bhubaneswar <br /> Pin - 751002
         </div>
       </div>
 
       <div className="flex gap-3">
-        <Image src={phone} alt="err" width={15} className="mt-1 h-[15px]" />
-        <div>+91 8249811046 | +91 9439854856 | +91 7326071067 </div>
+        <Image
+          src={phone}
+          alt="err"
+          width={15}
+          className="mt-1 h-[15px] cursor-pointer"
+        />
+       <div>
+            <a href="tel:+918249811046" className="cursor-pointer">+91 8249811046  </a> |
+            <a href="tel:+919439854856" className="cursor-pointer">   +91 9439854856</a> |
+            <a href="tel:+917326071067" className="cursor-pointer">   +91 7326071067</a>
+       </div>
       </div>
 
       <div className="flex gap-3">
-        <Image src={mail} alt="err" width={15} className="mt-1 h-[15px]" />
-        <div>homesolution@gmail.com</div>
+        <Image
+          src={mail}
+          alt="err"
+          width={15}
+          className="mt-1 h-[15px] cursor-pointer"
+        />
+        <div className="cursor-pointer">homesolution@gmail.com</div>
       </div>
 
       <div className="flex gap-[35px]">

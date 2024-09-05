@@ -173,9 +173,9 @@ function Header() {
                       height={30}
                       width={30}
                     />
-                    <span className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
+                    <a href="tel:+918249811046" className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
                       +91 8249811046
-                    </span>
+                    </a>
                   </Link>
                 </div>
 
