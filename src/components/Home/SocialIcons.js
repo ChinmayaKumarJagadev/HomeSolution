@@ -20,7 +20,7 @@ function SocialIcons() {
                 width={30}
                 style={{ marginTop: "-10px" }}
               />
-              <span className={styles.phone_text}>0941 112 071</span>
+              <span className={styles.phone_text}> +91 8249811046</span>
             </Link>
           </li>
           <li>

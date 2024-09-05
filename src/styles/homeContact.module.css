@@ -1,0 +1,87 @@
+.homeContactContainer {
+  background-image: url("../assets/Images/contactbgImage.jpg");
+  height: 50vh;
+  margin: 0px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.contactOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Black overlay with 40% opacity */
+  z-index: 1; /* Ensure overlay is on top */
+}
+
+.homeContactCardContainer {
+  background-color: #fff;
+  position: relative;
+  z-index: 2; /* Make sure content is above the overlay */
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%; /* Vertically align */
+  transform: translateY(-50%); /* Center vertically */
+  height: 50%;
+  border-radius: 5px;
+}
+
+.contactHomeText {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.contactHomeDesc {
+  font-size: 17px;
+  color: #3d466b;
+  width: 70%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.homeContactHereText {
+  color: #f63b2a;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.messageContainerHome {
+  background-color: #f63b2a;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContactIcon {
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (max-width:1024px){
+  .homeContactCardContainer{
+    width: 92%;
+    height: 200px;
+  }
+  .contactHomeDesc{
+    font-size: 14px;
+    width: 95%;
+  }
+  .homeContactHereText{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .messageContainerHome{
+    left: 42%;
+  }
+}

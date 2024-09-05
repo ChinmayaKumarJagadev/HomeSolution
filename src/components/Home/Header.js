@@ -174,7 +174,7 @@ function Header() {
                       width={30}
                     />
                     <span className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
-                      0941 112 0710
+                      +91 8249811046
                     </span>
                   </Link>
                 </div>

@@ -2,7 +2,7 @@
   background-color: #fff;
   color: #000;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px; */
   margin: 0px 0 50px 0;
   display: flex;
   justify-content: center;
@@ -12,6 +12,14 @@
   margin: 50px 0 20px 0;
   width: 50%;
   text-align: right;
+}
+
+.aboutTriangle {
+  clip-path: polygon(0 0, 0% 100%, 85% 100%);
+  background-color: rgb(230, 232, 255, 0.999);
+  height: 100vh;
+  width: 600px;
+  position: absolute;
 }
 .abouRightContainer {
   width: 50%;
@@ -28,6 +36,10 @@
   font-size: 18px;
   font-weight: 400;
   padding: 10px 20px;
+  width: 80%;
+  text-align: right;
+  margin-left: auto;
+  /* float: right; */
 }
 
 .aboutCompanyCircles {
@@ -43,7 +55,7 @@
   /* background-color: rgba(178, 143, 143, 0.83); */
   box-shadow: 20px 0px 80px rgb(61, 70, 107, 0.3);
   background-color: rgb(61, 70, 1070, 0.4);
-  color: #e61313;
+  color: #f63b2a;
   /* border: 1px solid #e61313; */
   overflow: hidden;
 }
@@ -140,7 +152,7 @@
   text-align: center;
 }
 
-.awardContainer{
+.awardContainer {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -175,6 +187,12 @@
     width: 100%;
     padding-left: 50px;
     margin-top: -50px;
+  }
+  .aboutTriangle {
+    display: none;
+  }
+  .aboutUSDesc {
+    width: 100%;
   }
   .aboutCompanyCircles {
     margin-bottom: 20px;
@@ -232,7 +250,7 @@
     border-left: 4px solid #e61313;
     border-bottom: 4px solid #e61313;
   }
-  .awardContainer{
+  .awardContainer {
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;

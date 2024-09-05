@@ -7,6 +7,8 @@ import Construction from "@/components/Home/Construction";
 import HomeConstruction from "@/components/Home/HomeConstruction";
 import InteriorSection from "@/components/Home/InteriorSection";
 import OfferSection from "@/components/Home/OfferSection";
+import HomeContact from "@/components/Home/HomeContact";
+import Footer from  '../components/Footer/index'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +22,8 @@ export default function Home() {
       <InteriorSection />
       <OfferSection/>
       <About />
+      <HomeContact />
+      <Footer />
     </div>
   );
 }
