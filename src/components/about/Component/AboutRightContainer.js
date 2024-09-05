@@ -8,8 +8,8 @@ import About3 from '../../../assets/Images/about-3.png'
 function AboutRightContainer() {
   return (
     <div className={styles.abouRightContainer}>
-      <ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400 w-full">
-        <li class="mb-[60px] ms-[50px]">
+      <ol class="relative text-gray-500 border-gray-200 dark:border-gray-700 dark:text-gray-400 w-full">
+        <li class="mb-[0px] ps-[50px] border-s h-[150px]">
         <span className="absolute flex items-center justify-center w-[60px] h-[60px] 
         rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-900" style={{ backgroundColor: "#e61313"}}>
         <Image src={About1} alt="error" width={30} height={30} />
@@ -21,7 +21,7 @@ function AboutRightContainer() {
           Crafting spaces that reflect your unique style, because your satisfaction is our ultimate success.
           </p>
         </li>
-        <li class="mb-[60px] ms-[50px]">
+        <li class="mb-[0px]  border-s ps-[50px] h-[150px]">
           <span class="absolute flex items-center justify-center w-[60px] h-[60px] 
           rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#e61313"}}>
           <Image src={About2} alt="error" width={30} height={30} />
@@ -31,7 +31,7 @@ function AboutRightContainer() {
           Your vision transforms the space. You shape it, creating a reality that reflects your imagination.
           </p>
         </li>
-        <li class="mb-[60px] ms-[50px]">
+        <li class="mb-[0px] ps-[50px]">
           <span class="absolute flex items-center justify-center w-[60px] h-[60px] 
           rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#e61313"}}>
           <Image src={About3} alt="error" width={30} height={30} />
