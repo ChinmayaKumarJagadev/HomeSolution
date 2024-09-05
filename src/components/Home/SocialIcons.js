@@ -11,7 +11,7 @@ function SocialIcons() {
       <nav className={styles.navbarTop}>
         <ul className={styles.navLinks_top}>
           <li className={styles.phone_container}>
-            <Link href="https://www.facebook.com" passHref>
+            <div>
               <Image
                 src={Phone}
                 alt="error"
@@ -21,7 +21,7 @@ function SocialIcons() {
                 style={{ marginTop: "-10px" }}
               />
               <a href="tel:+918249811046" className={styles.phone_text}> +91 8249811046</a>
-            </Link>
+            </div>
           </li>
           <li>
             <Link href="https://www.facebook.com" passHref>
