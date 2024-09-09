@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../../../styles/designAndPlanning.module.css";
 import Site1 from "../../../assets/Images/finishing1.jpg";
-import Site2 from "../../../assets/Images/finishing9.jpg";
+import Site2 from "../../../assets/Images/finishing10.PNG";
 import Site3 from "../../../assets/Images/finishing7.jpg";
 import Site4 from "../../../assets/Images/finishing4.jpg";
 import Site5 from "../../../assets/Images/finishing5.jpg";
