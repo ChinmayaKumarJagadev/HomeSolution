@@ -60,12 +60,9 @@ function DesignScreenOverviewSection() {
                 interior of your home to life. We start by painting the walls
                 and ceilings with your chosen colors, giving the space a fresh,
                 finished look. Flooring is installed, whether it’s hardwood,
-                tile, or carpet, according to your preferences. Cabinetry,
-                countertops, and other interior features like trim work and
-                doors are also added during this phase. Our attention to detail
+                tile, or carpet, according to your preferences. Our attention to detail
                 ensures that all finishes are smooth, precise, and aligned with
-                the overall design. This stage creates a comfortable and
-                polished interior, ready for you to enjoy.
+                the overall design.
               </div>
             </div>
           </div>
@@ -100,9 +97,7 @@ function DesignScreenOverviewSection() {
               also put in place. Kitchen and bathroom appliances, like ovens,
               dishwashers, and water heaters, are installed as well. Every
               fixture is checked to ensure it is properly connected and
-              operational. This step enhances the practicality of your home,
-              ensuring that all systems are ready to use as you prepare for
-              occupancy.
+              operational.
             </div>
           </div>
         </div>
@@ -116,14 +111,12 @@ function DesignScreenOverviewSection() {
               3. Final Inspection
             </div>
             <div className="text-textColor text-[12px] md:text-[16px] text-justify">
-              At this stage, we conduct a thorough inspection to ensure
+              We conduct a thorough inspection to ensure
               everything in your home meets our high-quality standards. We
               carefully examine the construction, installations, and finishes to
               identify any issues that need addressing. This includes checking
               plumbing, electrical systems, walls, flooring, and other critical
-              elements for defects or incomplete work. Our team ensures that all
-              aspects of the project are completed to your satisfaction and
-              align with the original plans. By performing this meticulous
+              elements for defects or incomplete work. By performing this meticulous
               check, we guarantee that your home is move-in ready, free of any
               flaws, and meets our commitment to excellence.
             </div>
@@ -158,9 +151,7 @@ function DesignScreenOverviewSection() {
               from the home’s interior and exterior. We clean every area,
               including floors, windows, and surfaces, leaving the space
               spotless and tidy. Our goal is to deliver a clean, polished home
-              that looks fresh and ready for move-in. This final step not only
-              enhances the appearance of the property but also ensures that the
-              home is safe and comfortable for the client to enter.
+              that looks fresh and ready for move-in.
             </div>
           </div>
         </div>
@@ -177,9 +168,7 @@ function DesignScreenOverviewSection() {
               with the client. During the walkthrough, we explain how various
               systems and appliances work, ensuring the client understands the
               functionality of the home. We also address any last-minute
-              questions or concerns the client may have. This is an opportunity
-              to review the completed work, verify that all elements meet the
-              agreed-upon specifications, and confirm client satisfaction. Once
+              questions or concerns the client may have. Once
               everything is confirmed, we officially hand over the keys, marking
               the completion of the project and the beginning of the client’s
               new journey in their home.
@@ -214,10 +203,7 @@ function DesignScreenOverviewSection() {
               address any concerns or issues that may arise during the initial
               occupancy period, such as minor adjustments or system tweaks. This
               ensures a seamless transition and complete satisfaction with your
-              new home. Whether it’s a question about operating systems or
-              fixing small issues, we’re here to help. Our commitment extends
-              beyond the construction phase, ensuring you enjoy your new space
-              with peace of mind.
+              new home.
             </div>
           </div>
         </div>

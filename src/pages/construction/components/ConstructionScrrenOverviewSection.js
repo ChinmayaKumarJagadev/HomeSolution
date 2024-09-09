@@ -65,10 +65,7 @@ function DesignScreenOverviewSection() {
                 drainage is also established to prevent water accumulation
                 during the building phase. This stage involves marking out the
                 building site and setting boundaries based on the architectural
-                plans. By ensuring the land is prepared correctly, we create a
-                solid foundation for the construction process, minimizing any
-                potential issues later on. This essential step sets the stage
-                for a smooth and efficient build.
+                plans. 
               </div>
             </div>
           </div>
@@ -121,9 +118,7 @@ function DesignScreenOverviewSection() {
               involves the installation of load-bearing walls and support beams,
               which are crucial for the stability of the entire house. Accurate
               measurements and quality materials are used to ensure that the
-              framework aligns with the architectural plans. Once the frame is
-              completed, the house begins to take shape, setting the foundation
-              for the addition of exterior and interior elements.
+              framework aligns with the architectural plans.
             </div>
           </div>
 
@@ -155,9 +150,7 @@ function DesignScreenOverviewSection() {
               ventilation, and air conditioning) ducts for climate control. We
               carefully integrate these systems within the walls and ceilings to
               ensure everything is correctly set up before the final interior
-              finishes. Proper installation of these utilities is crucial for
-              the home’s performance and efficiency, ensuring a reliable and
-              comfortable living environment for you and your family.
+              finishes.
             </div>
           </div>
         </div>
@@ -173,11 +166,7 @@ function DesignScreenOverviewSection() {
               it is protected from weather elements. We use durable materials
               and precise techniques to build walls that provide both strength
               and insulation. The installation of windows and doors adds
-              functionality and completes the home’s exterior look. This phase
-              not only provides structural integrity but also enhances the
-              building’s curb appeal. Proper construction at this stage is
-              crucial for the overall durability and energy efficiency of the
-              home.
+              functionality and completes the home’s exterior look. 
             </div>
           </div>
 
