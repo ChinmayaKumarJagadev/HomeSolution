@@ -5,8 +5,10 @@ import work1 from "../../assets/Images/work-1 (2).jpg";
 import work2 from "../../assets/Images/work-1 (1).jpg";
 import work3 from "../../assets/Images/work-1 (4).jpg";
 import work4 from "../../assets/Images/work-1 (5).jpg";
+import { useRouter } from "next/router";
 
 function Construction() {
+  const router = useRouter();
   const data = [
     {
       title: "Design & Planning",
@@ -29,6 +31,22 @@ function Construction() {
       image: work4,
     },
   ];
+
+  const handleClickedConstructionCard = (card) => {
+    if (card === 0) {
+      router.push("/design");
+    }
+    if (card === 1) {
+      router.push("/architecture");
+    }
+    if (card === 2) {
+      router.push("/construction");
+    }
+    if (card === 3) {
+      router.push("/finishing");
+    }
+  };
+
   return (
     <div className={styles.construction_container}>
       <div className={styles.construction_title}>
@@ -40,7 +58,7 @@ function Construction() {
       </div>
 
       <div className={styles.maincardContainerConstruction}>
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
             <div className={styles.constructionCard}>
               <Image
@@ -48,12 +66,16 @@ function Construction() {
                 alt="error"
                 className={styles.constructionCardImage}
                 width={500}
+                onClick={() => handleClickedConstructionCard(index)}
               />
               <div className="h-[50px] md:h-[100px]">
                 <div className={styles.cardTitleConstruction}>{item.title}</div>
                 <div className={styles.cardDescConstruction}>{item.desc}</div>
 
-                <button className={styles.seeMoreConstructionText}>
+                <button
+                  className={styles.seeMoreConstructionText}
+                  onClick={() => handleClickedConstructionCard(index)}
+                >
                   See more
                 </button>
               </div>

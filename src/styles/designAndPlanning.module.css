@@ -1,0 +1,158 @@
+.designRouteHeroContainer {
+  background-image: url("../assets/Images/work-1 (2).jpg");
+  height: 55vh;
+  margin: 141px 0 0 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.architectureRouteHeroContainer {
+  background-image: url("../assets/Images/work-1 (1).jpg");
+  height: 55vh;
+  margin: 141px 0 0 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.designHeroOverlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay color with opacity */
+  z-index: 1;
+}
+.designHeroTitle {
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "AvenirNextLTPro-medium";
+  z-index: 2;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.designHeroBookButton {
+  margin: 0px auto;
+  width: 25%;
+  background-color: #f63b2a;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 22px;
+  z-index: 2;
+  position: relative;
+  margin-top: 15px;
+}
+
+.designScreenOverviewSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.designScreenTopContent {
+  padding: 0 200px;
+  box-shadow: rgba(142, 138, 138, 0.3) 0px 5px 10px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.overviewDesignTitle {
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "AvenirNextLTPro-medium";
+}
+
+.overviewDesignDesc {
+  color: #000;
+  font-size: 17px;
+  font-family: "AvenirNextLTPro-medium";
+  color: #3d466b;
+  margin: 5px 0 15px 0;
+  text-align: justify ;
+}
+.designStepsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+  gap: 200px;
+}
+
+.designInfoImages{
+  width: 300px;
+  height: 300px;
+}
+
+.siteInfoImages{
+  width: 400px;
+  height: 280px;
+}
+@media only screen and (max-width: 1024px){
+  .designHeroTitle {
+    font-size: 24px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .designHeroBookButton {
+    width: 75%;
+    font-size: 15px;
+  }
+  .designScreenTopContent{
+    padding:  20px 20px 0 20px;
+  }
+  .designStepsContainer {
+    display: flex;
+    padding: 0 20px;
+    justify-content:unset;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .designInfoImages{
+    width: 150px;
+    height: 150px;
+  }
+  .siteInfoImages{
+    width: 150px;
+    height: 150px;
+  }
+  .overviewDesignTitle {
+    font-size: 18px;
+  }
+  
+  .overviewDesignDesc {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1025px ) and (max-width: 1280px){
+  .designStepsContainer{
+    gap: 50px;
+  }
+  .siteInfoImages{
+    width: 150px;
+    height: 150px;
+  }
+}
