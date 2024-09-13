@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/homeConstruction.module.css";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import cons1 from "../../assets/Images/cons2 (6).jpg";
 import cons2 from "../../assets/Images/cons2.jpg";
 import cons3 from "../../assets/Images/cons2 (1).jpg";
@@ -11,6 +12,7 @@ import cons7 from "../../assets/Images/cons2 (5).jpg";
 import Star from "../star";
 
 const HomeConstruction = () => {
+  const router = useRouter();
   const data = [
     { title: "Personal Home", image: cons1, star: "★★★★★", offer: "Save 54%" },
     { title: "Flats | 2BHK 3BHK", image: cons7, star: "★★★★" , offer: "Save 34%"},
@@ -28,6 +30,31 @@ const HomeConstruction = () => {
   const scrollRight = () => {
     document.querySelector(`.${styles.scrollContainer}`).scrollLeft += 200;
   };
+
+
+  const handleCardClick = (card)=>{
+    if (card === 0) {
+      router.push("/personal-home");
+    }
+    if (card === 1) {
+      router.push("/flats");
+    }
+    if (card === 2) {
+      router.push("/restaurants");
+    }
+    if (card === 3) {
+      router.push("/hospitals");
+    }
+    if (card === 4) {
+      router.push("/hotels");
+    }
+    if (card === 5) {
+      router.push("/shops");
+    }
+    if (card === 6) {
+      router.push("/office");
+    }
+  }
 
   return (
     <div className={styles.homeConstructionContainer}>
@@ -48,7 +75,7 @@ const HomeConstruction = () => {
         </button>
         <div className={styles.scrollContainer}>
           {data.map((item, index) => (
-            <div className={styles.homeConstructionCard} key={index}>
+            <div className={styles.homeConstructionCard} key={index} onClick={() => handleCardClick(index)}>
               <Image
                 src={item.image}
                 alt={item.title}

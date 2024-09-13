@@ -17,7 +17,7 @@ function AboutRightContainer() {
           <h3 class="font-semibold text-xl text-black leading-tight uppercase pt-1">
             Perfectly Customized
           </h3>
-          <p class="text-[17px] text-gray-500 mt-2 mr-10">
+          <p class="text-[16px] text-gray-500 mt-2 mr-10">
           Crafting spaces that reflect your unique style, because your satisfaction is our ultimate success.
           </p>
         </li>
@@ -27,7 +27,7 @@ function AboutRightContainer() {
           <Image src={About2} alt="error" width={30} height={30} />
           </span>
           <h3 class="font-semibold leading-tight text-xl text-black leading-tight uppercase pt-1">Designed with You</h3>
-          <p class="text-[17px] mt-2 mr-10">
+          <p class="text-[16px] mt-2 mr-10">
           Your vision transforms the space. You shape it, creating a reality that reflects your imagination.
           </p>
         </li>
@@ -37,7 +37,7 @@ function AboutRightContainer() {
           <Image src={About3} alt="error" width={30} height={30} />
           </span>
           <h3 class="font-semibold leading-tight text-xl text-black leading-tight uppercase pt-1">Value and Timeliness</h3>
-          <p class="text-[17px] mt-2 mr-10">
+          <p class="text-[16px] mt-2 mr-10">
             Delivering top-quality results with precision and on schedule. Where
             value meets reliability.
           </p>
