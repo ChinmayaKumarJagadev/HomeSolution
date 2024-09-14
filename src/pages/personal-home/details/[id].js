@@ -8,10 +8,10 @@ import Image from "next/image";
 import { useState } from "react";
 import { cardsData } from "../function";
 
-export default function PersonalHomeCardDetail() {
+const PersonalHomeCardDetail = () => {
   const router = useRouter();
   const { id } = router.query;
-  const card = cardsData.find((card) => card.id === parseInt(id));
+  const card = cardsData?.find((card) => card.id === parseInt(id));
   const isActive = (path) => router.pathname === path;
   const [selectedImage, setSelectedImage] = useState(card?.image || Image1); 
 
@@ -128,3 +128,4 @@ export default function PersonalHomeCardDetail() {
     </div>
   );
 }
+export default PersonalHomeCardDetail
