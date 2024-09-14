@@ -133,6 +133,9 @@ function PersonalHomeDesign() {
                 Book A Consultation
               </button>
             </div>
+            <button className={styles.priceButtonHomeConst}>
+              <span className="line-through mr-[20px]">₹ 10, 20000</span> ₹ 9, 10000
+            </button>
           </div>
         ))}
       </div>
