@@ -46,7 +46,7 @@ import HomeDet151 from "../../assets/Images/home-det-15.1.jpg";
 import HomeDet152 from "../../assets/Images/home-det-15.2.jpg";
 
 
-export const cardsData = [
+const cardsData = [
     {
       id: 1,
       title: "Modern Personal Home with Open Floor Plan and Natural Light",
@@ -262,3 +262,5 @@ export const cardsData = [
         bottomImage: [Image15, HomeDet151, HomeDet152],
       },
   ];
+
+  export default cardsData;

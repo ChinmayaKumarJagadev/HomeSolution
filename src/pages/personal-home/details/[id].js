@@ -6,7 +6,7 @@ import Image1 from "../../../assets/Images/personal1.jpg";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { cardsData } from "../function";
+import cardsData  from "../function";
 
 const PersonalHomeCardDetail = () => {
   const router = useRouter();
@@ -14,6 +14,8 @@ const PersonalHomeCardDetail = () => {
   const card = cardsData?.find((card) => card.id === parseInt(id));
   const isActive = (path) => router.pathname === path;
   const [selectedImage, setSelectedImage] = useState(card?.image || Image1); 
+
+  console.log(cardsData)
 
   if (!card) return <div>Card not found</div>;
 
