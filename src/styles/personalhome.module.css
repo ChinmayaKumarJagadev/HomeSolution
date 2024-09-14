@@ -27,6 +27,7 @@
   height: 320px;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .personalHomeCardTitle {
   font-size: 20px;
@@ -92,6 +93,58 @@
   border-bottom: 4px solid #f63b2a;
 }
 
+.homeDetailContainer{
+  margin-top: 30px;
+  display: flex;
+}
+
+.homeCardDetailsLeftContainer{
+  width: 50%;
+}
+.homeCardDetailsTitle{
+  font-size: 30px;
+  font-weight: bold;
+  width: 70%;
+}
+.homeCardDetailsDesc{
+  font-size: 16px;
+  margin: 10px 0 30px 0;
+  color: #3d466b;
+}
+
+.homeCardDetailsText{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #3d466b;
+}
+.homeCardAllDetailsTitle{
+  font-weight: bold;
+  font-size: 18px;
+}
+.homeCardPriceButton{
+  padding: 10px 40px;
+  background-color: #f63b2a;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.homeCardDetailsImage{
+  height: 500px;
+  width: 850px;
+  margin-top: -100px;
+  margin-left: 50px;
+  object-fit: cover;
+}
+.homeCardDetailsBottomImage{
+  height: 100px;
+  /* margin-left: 50px; */
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  /* width: 100%; */
+}
+
 @media only screen and (max-width: 1024px) {
   .personalHomeMainContainer {
     margin: 142px 20px 0 20px;
@@ -123,6 +176,41 @@
     background-color: #3d466b;
     padding: 8px 0px;
     font-size: 12px;
+  }
+  .homeDetailContainer{
+    flex-direction: column-reverse;
+  }
+  .homeCardDetailsImage{
+    height: 250px;
+    margin: 0px 0 0px 0
+  }
+  .homeCardDetailsBottomImage{
+    height: 80px;
+    width: 100px;
+  }
+  .homeCardDetailsLeftContainer{
+    width: 100%;
+  }
+  .homeCardDetailsTitle{
+    font-size: 20px;
+    width: 90%;
+    margin-top: 25px;
+  }
+  .homeCardDetailsDesc{
+    font-size: 15px;
+  }
+  
+  .homeCardDetailsText{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #3d466b;
+  }
+  .homeCardAllDetailsTitle{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .homeCardPriceButton{
+    margin-bottom: 50px;
   }
 }
 
