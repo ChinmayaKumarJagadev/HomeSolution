@@ -108,7 +108,7 @@ const PersonalHomeCardDetail = () => {
               width={800}
               className={styles.homeCardDetailsImage}
             />
-            <div className="flex gap-[15px] md:gap-[25px] ml-0 md:ml-[50px]">
+            <div className={styles.homeBottomImageContainer}>
               {card?.bottomImage?.map((item, index) => {
                 return (
                   <Image

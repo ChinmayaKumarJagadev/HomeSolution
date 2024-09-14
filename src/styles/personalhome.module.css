@@ -136,6 +136,14 @@
   margin-left: 50px;
   object-fit: cover;
 }
+
+.homeBottomImageContainer{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
 .homeCardDetailsBottomImage{
   height: 100px;
   /* margin-left: 50px; */
@@ -211,6 +219,9 @@
   }
   .homeCardPriceButton{
     margin-bottom: 50px;
+  }
+  .homeBottomImageContainer{
+    margin-left: 0px;
   }
 }
 
