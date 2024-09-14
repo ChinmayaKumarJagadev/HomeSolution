@@ -13,7 +13,6 @@ import Image12 from "../../assets/Images/personal11.jpg";
 import Image13 from "../../assets/Images/personal12.jpg";
 import Image14 from "../../assets/Images/personal13.jpg";
 import Image15 from "../../assets/Images/personal14-1.jpg";
-
 import HomeDet1 from "../../assets/Images/home-det-1-1.jpg";
 import HomeDet2 from "../../assets/Images/home-det-2.jpg";
 import HomeDet21 from "../../assets/Images/home-det-2.1.jpg";
