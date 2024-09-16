@@ -6,9 +6,9 @@ import Image1 from "../../../assets/Images/personal1.jpg";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import cardsData  from "../../../restaurantFunction";
+import cardsData  from "../../../hospitals.js";
 
-const Restaurants = () => {
+const Hospital = () => {
   const router = useRouter();
   const { id } = router.query;
   const card = cardsData?.find((card) => card.id === parseInt(id));
@@ -42,15 +42,15 @@ const Restaurants = () => {
               </Link>
             </li>
             <li>
-              <Link href="/restaurants">
+              <Link href="/hospitals">
                 <span
                   className={
-                    isActive("/restaurants")
+                    isActive("/hospitals")
                       ? "text-black md:text-[16px] text-[12px]"
                       : "text-customRed md:text-[16px] text-[12px]"
                   }
                 >
-                  Restaurants /
+                  Hospitals /
                 </span>
               </Link>
             </li>
@@ -128,4 +128,4 @@ const Restaurants = () => {
     </div>
   );
 }
-export default Restaurants
+export default Hospital

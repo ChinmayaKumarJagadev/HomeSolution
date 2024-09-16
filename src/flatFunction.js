@@ -221,12 +221,12 @@ const cardsData = [
         id: 13,
         title: "Spacious 3 BHK Flats with Modular Kitchens",
         description:
-          "Designed for comfort and convenience, these Family-Friendly Flats offer easy access to a dedicated kid’s play area, making it the perfect living space for growing families. Spacious layouts and modern amenities ensure a safe and enjoyable environment for children.",
+          "Discover comfort and convenience in these Spacious 3 BHK Flats, thoughtfully designed with modern modular kitchens. Each flat offers generous living spaces, blending functionality with style, making it an ideal choice for families seeking a contemporary lifestyle.",
         layout: "3 BHK Flats with Modular Kitchens",
         style: "Modern",
         idealFor: "Medium Families",
         SpecialFeature:
-          "These Family-Friendly Flats include a secure, well-maintained kid’s play area with ample space for outdoor activities. The flats are designed with family needs in mind, offering open layouts, child-safe fixtures, and proximity to schools, parks, and family-friendly amenities.",
+          "These 3 BHK Flats feature sleek modular kitchens equipped with smart storage solutions and high-quality finishes. The spacious layout ensures ample room for relaxation and living, while modern amenities, including large windows and well-ventilated spaces, create a bright and airy home environment.",
         price: "Starting from ₹ 10L",
         image: Image13,
         bottomImage: [Image13, HomeDet131, HomeDet132],
@@ -236,12 +236,12 @@ const cardsData = [
         id: 14,
         title: "Terrace Flats with Private Rooftop Lounge Areas",
         description:
-          "Designed for comfort and convenience, these Family-Friendly Flats offer easy access to a dedicated kid’s play area, making it the perfect living space for growing families. Spacious layouts and modern amenities ensure a safe and enjoyable environment for children.",
+          "Discover luxury living in Terrace Flats, offering private rooftop lounge areas perfect for relaxation and entertaining. These contemporary flats combine urban elegance with personal outdoor spaces, providing a unique blend of comfort and style.",
         layout: "Terrace Flats with Private Rooftop",
         style: "Modern",
         idealFor: "Medium Families",
         SpecialFeature:
-          "These Family-Friendly Flats include a secure, well-maintained kid’s play area with ample space for outdoor activities. The flats are designed with family needs in mind, offering open layouts, child-safe fixtures, and proximity to schools, parks, and family-friendly amenities.",
+          "Each flat features a private rooftop lounge area, ideal for unwinding with panoramic views or hosting gatherings. The modern design emphasizes outdoor living, with spacious terraces that extend the indoor living area, creating a seamless indoor-outdoor experience.",
         price: "Starting from ₹ 10L",
         image: Image14,
         bottomImage: [Image14, HomeDet141, HomeDet142],
@@ -251,12 +251,12 @@ const cardsData = [
         id: 15,
         title: "Cozy Flats with a best Contemporary Balcony",
         description:
-          "Designed for comfort and convenience, these Family-Friendly Flats offer easy access to a dedicated kid’s play area, making it the perfect living space for growing families. Spacious layouts and modern amenities ensure a safe and enjoyable environment for children.",
+          "Discover comfort and style in these Cozy Flats, featuring a sleek contemporary balcony perfect for relaxation. The modern design blends functionality with charm, offering a private outdoor space to enjoy fresh air and stunning views.",
         layout: "Flats with best Contemporary Balcony",
         style: "Modern",
         idealFor: "Medium Families",
         SpecialFeature:
-          "These Family-Friendly Flats include a secure, well-maintained kid’s play area with ample space for outdoor activities. The flats are designed with family needs in mind, offering open layouts, child-safe fixtures, and proximity to schools, parks, and family-friendly amenities.",
+          "ting and enjoying outdoor living. The balconies are equipped with stylish railings, durable flooring, and are ideal for personal relaxation or entertaining guests with a view.",
         price: "Starting from ₹ 10L",
         image: Image15,
         bottomImage: [Image15, HomeDet151, HomeDet152],

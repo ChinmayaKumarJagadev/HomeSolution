@@ -11,47 +11,59 @@ import Personal8 from "../../../assets/Images/hos8.jpg";
 import Personal9 from "../../../assets/Images/hos9.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id: 1,
     img: Personal1,
     title: "Contemporary Hospital Spaces with Advanced Comfort",
   },
   {
+    id: 2,
     img: Personal2,
     title: "Eco-Friendly Healthcare Facilities with Natural Elements",
   },
   {
+    id: 3,
     img: Personal3,
     title: "Luxurious Hospital Designs for Premium Patient Care",
   },
   {
+    id: 4,
     img: Personal4,
     title: "High-Tech Emergency Rooms with Optimal Design",
   },
   {
+    id: 5,
     img: Personal5,
     title: "Comfortable Outpatient Spaces with Practical Design",
   },
   {
+    id: 6,
     img: Personal6,
     title: "Innovative Laboratory Spaces with Precision Design",
   },
   {
+    id: 7,
     img: Personal7,
     title: "Efficient Pharmacy Spaces with Organized Layouts",
   },
-  {
-    img: Personal8,
-    title: "Dynamic Rehabilitation Gyms with Modern Equipment",
-  },
-  {
-    img: Personal9,
-    title: "Innovative Outdoor Hospital Designs for Integrated Healing Environments"
-  }
+  // {
+  //   id: 8,
+  //   img: Personal8,
+  //   title: "Dynamic Rehabilitation Gyms with Modern Equipment",
+  // },
+  // {
+  //   id: 9,
+  //   img: Personal9,
+  //   title: "Innovative Outdoor Hospital Designs for Integrated Healing Environments"
+  // }
 ];
 
 function HospitalDesign() {
+  const router = useRouter();
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -81,10 +93,11 @@ function HospitalDesign() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/hospitals/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+            <button className={styles.getFullViewHome} ><Link href={`/hospitals/details/${home?.id}`}>Get Full View</Link></button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>
