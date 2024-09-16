@@ -6,9 +6,9 @@ import Image1 from "../../../assets/Images/personal1.jpg";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import cardsData  from "../../../homeFunction";
+import cardsData  from "../../../flatFunction";
 
-const PersonalHomeCardDetail = () => {
+const Flats = () => {
   const router = useRouter();
   const { id } = router.query;
   const card = cardsData?.find((card) => card.id === parseInt(id));
@@ -19,7 +19,7 @@ const PersonalHomeCardDetail = () => {
 
 
   const handleThumbnailClick = (image) => {
-    setSelectedImage(image); // Update the main image when a thumbnail is clicked
+    setSelectedImage(image); 
   };
 
   return (
@@ -42,15 +42,15 @@ const PersonalHomeCardDetail = () => {
               </Link>
             </li>
             <li>
-              <Link href="/personal-home">
+              <Link href="/flats">
                 <span
                   className={
-                    isActive("/personal-home")
+                    isActive("/flats")
                       ? "text-black md:text-[16px] text-[12px]"
                       : "text-customRed md:text-[16px] text-[12px]"
                   }
                 >
-                  Personal Home /
+                  Flats /
                 </span>
               </Link>
             </li>
@@ -128,4 +128,4 @@ const PersonalHomeCardDetail = () => {
     </div>
   );
 }
-export default PersonalHomeCardDetail
+export default Flats

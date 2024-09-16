@@ -11,47 +11,60 @@ import Personal8 from "../../../assets/Images/res8.jpg";
 import Personal9 from "../../../assets/Images/res9.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id: 1,
     img: Personal1,
     title: "Smart Modular Layouts for Efficient Restaurant Design",
   },
   {
+    id: 2,
     img: Personal2,
     title: "Warm Wooden Interiors for a Welcoming Atmosphere",
   },
   {
+    id: 3,
     img: Personal3,
     title: "Contemporary Bar Designs for Exciting Nightlife",
   },
   {
+    id: 4,
     img: Personal4,
-    title: "Inviting Open Spaces for Modern Restaurants",
+    title: "Welcoming Open Spaces for Contemporary Dining Experiences in Modern Restaurants",
   },
   {
+    id: 5,
     img: Personal5,
     title: "Interactive Themed Spaces for Memorable Dining",
   },
   {
+    id: 6,
     img: Personal6,
     title: "Innovative Eco Designs for Environmentally-Conscious Restaurants",
   },
   {
+    id: 7,
     img: Personal7,
     title: "Trendy Gastro Pub with Relaxed Modern Vibes",
   },
   {
+    id: 8,
     img: Personal8,
     title: "Relaxing Beachside Restaurant with Breezy Coastal Vibes",
   },
   {
+    id:9,
     img: Personal9,
     title: "Charming Café Interiors with Cozy Inviting Feel",
   },
 ];
 
 function Restaurants() {
+  const router = useRouter();
+
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -82,17 +95,15 @@ function Restaurants() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/restaurants/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+              <button className={styles.getFullViewHome} ><Link href={`/restaurants/details/${home?.id}`}>Get Full View</Link></button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>
             </div>
-            <button className={styles.priceButtonHomeConst}>
-              <span className="line-through mr-[20px]">₹ 10, 20000</span> ₹ 9, 10000
-            </button>
           </div>
         ))}
       </div>

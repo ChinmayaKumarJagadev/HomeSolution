@@ -17,71 +17,89 @@ import Personal13 from "../../../assets/Images/flat-14.jpg";
 import Personal14 from "../../../assets/Images/flat-15.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id: 1,
     img: Personal1,
     title: "Modern 2 BHK Flats with Open Layout Concepts",
   },
   {
+    id: 2,
     img: Personal2,
     title: "Luxury 3 BHK Flats with Spacious Balconies",
   },
   {
+    id: 3,
     img: Personal3,
     title: "Compact Studio Flats Ideal for Single Living",
   },
   {
+    id: 4,
     img: Personal4,
     title: "Elegant 4 BHK Flats for Large Families",
   },
   {
+    id: 5,
     img: Personal5,
     title: "Affordable 1 BHK Flats for Young Professionals",
   },
   {
+    id: 6,
     img: Personal6,
     title: "Contemporary Duplex Flats with Private Terraces",
   },
   {
+    id: 7,
     img: Personal7,
     title: "Budget-Friendly Flats for Small Families and Couples",
   },
   {
+    id: 8,
     img: Personal8,
     title: "Premium Penthouse Flats with Scenic City Views",
   },
   {
+    id: 9,
     img: Personal9,
     title: "Smart Home Flats with Advanced Technology Integration",
   },
   {
+    id: 10,
     img: Personal91,
     title: "Luxurious 5 BHK Flats with Exclusive Living Zones",
   },
   {
+    id: 11,
     img: Personal10,
     title: "Eco-Friendly Flats with Sustainable Design Features",
   },
   {
+    id: 12,
     img: Personal11,
     title: "Family-Friendly Flats with Kid’s Play Area Access",
   },
   {
+    id: 13,
     img: Personal12,
     title: "Spacious 3 BHK Flats with Modular Kitchens",
   },
   {
+    id: 14,
     img: Personal13,
     title: "Terrace Flats with Private Rooftop Lounge Areas",
   },
   {
+    id: 15,
     img: Personal14,
     title: "Cozy Flats with a best Contemporary Balcony",
   },
 ];
 
 function FlatDesign() {
+  const router = useRouter();
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -110,17 +128,15 @@ function FlatDesign() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/flats/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+              <button className={styles.getFullViewHome} ><Link href={`/flats/details/${home?.id}`}>Get Full View</Link></button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>
             </div>
-            <button className={styles.priceButtonHomeConst}>
-              <span className="line-through mr-[20px]">₹ 10, 20000</span> ₹ 9, 10000
-            </button>
           </div>
         ))}
       </div>

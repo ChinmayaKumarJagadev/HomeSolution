@@ -205,7 +205,8 @@ const cardsData = [
         price: "Starting from ₹ 10L",
         image: Image11,
         bottomImage: [Image11, HomeDet111, HomeDet112],
-      }, {
+      }, 
+      {
         id: 12,
         title: "Unique T-Shape Home with Integrated Outdoor Space",
         description:
