@@ -32,7 +32,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "These Effortlessly Stylish Shops include sleek, modern layouts with open floor plans that maximize space and showcase products effectively. The design features minimalist fixtures, integrated lighting for enhanced visibility, and adaptable spaces for various retail needs, ensuring a sophisticated and functional shopping experience.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image1,
       bottomImage: [Image1, HomeDet1, HomeDet2],
     },
@@ -46,7 +46,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Elegant Shop Designs feature well-planned layouts for optimal flow and ease of navigation, luxurious fixtures and finishes, and strategically placed lighting to highlight products. Customizable display areas and comfortable fitting rooms enhance customer satisfaction and elevate the overall shopping experience.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image2,
       bottomImage: [Image2, HomeDet21, HomeDet22],
     },
@@ -61,7 +61,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Unique Shop Interiors feature interactive display areas and bespoke fixtures that enhance the customer experience. Thoughtful layout design ensures smooth navigation, while eye-catching decor and innovative lighting create an inviting and memorable shopping environment.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image3,
       bottomImage: [Image3, HomeDet31, HomeDet32],
     },
@@ -75,7 +75,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "These Unique Retail Spaces offer a seamless blend of indoor and outdoor environments, with retractable glass walls and integrated outdoor seating areas. The design promotes an open, airy atmosphere and enhances customer experience by merging retail convenience with pleasant outdoor elements",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image4,
       bottomImage: [Image4, HomeDet41, HomeDet42],
     },
@@ -89,7 +89,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Our Luxurious Spa Resorts feature world-class wellness amenities, including private treatment suites, infinity pools, and serene meditation gardens. Enjoy bespoke spa therapies, holistic wellness programs, and soothing environments designed to provide a deeply relaxing and rejuvenating experience.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image5,
       bottomImage: [Image5, HomeDet51, HomeDet52],
     }, 
@@ -103,7 +103,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Boutique Shops are distinguished by their innovative interior designs and creative layouts. Expect customized decor that reflects the brand's identity, eye-catching display areas, and thoughtfully designed spaces that enhance the shopping experience and leave a lasting impression.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image6,
         bottomImage: [Image6, HomeDet61, HomeDet62],
       }, 
@@ -118,7 +118,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These stores utilize energy-efficient lighting, sustainable building materials, and smart technology to minimize their carbon footprint. Solar panels, green roofs, and water-saving systems are integrated into the design, creating an eco-friendly environment that aligns with modern sustainability goals.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image7,
         bottomImage: [Image7, HomeDet71, HomeDet72],
       }, 

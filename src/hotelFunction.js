@@ -32,7 +32,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Smart Modular Layouts offer flexible room configurations that optimize space without sacrificing comfort. These designs allow for quick reconfiguration to accommodate different guest needs, integrating smart technology for energy efficiency, and minimizing operational costs while enhancing guest experience",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image1,
       bottomImage: [Image1, HomeDet1, HomeDet2],
     },
@@ -46,7 +46,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Our Stylish Hotel Rooms include plush bedding, contemporary décor, and private balconies with scenic views. Guests can enjoy resort-style amenities such as a spa, infinity pool, and fitness center, creating a peaceful retreat that combines style with ultimate relaxation.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image2,
       bottomImage: [Image2, HomeDet21, HomeDet22],
     },
@@ -60,7 +60,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "These luxury hotels feature exclusive rooftop pools that provide stunning panoramic views and a private oasis above the city. Guests can enjoy luxurious poolside cabanas, top-tier service, and a chic atmosphere, making it the perfect spot for both relaxation and socializing.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image3,
       bottomImage: [Image3, HomeDet31, HomeDet32],
     },
@@ -74,7 +74,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Experience unparalleled relaxation with beachfront access and expansive ocean views from every room. The hotel features private balconies, direct beach access, and an infinity pool that seems to merge with the ocean. Elegant, beach-inspired décor enhances the tranquil atmosphere, making it a perfect coastal retreat",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image4,
       bottomImage: [Image4, HomeDet41, HomeDet42],
     },
@@ -88,7 +88,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "These Comfortable Rooms feature expansive windows that frame stunning mountain views, allowing you to fully appreciate the natural beauty from the comfort of your space. Thoughtful design elements include plush furnishings and serene color palettes, enhancing the cozy, restful atmosphere.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image5,
       bottomImage: [Image5, HomeDet51, HomeDet52],
     },
@@ -102,7 +102,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Trendy Urban Hotels feature chic, modern interiors with open, stylish rooms and city-inspired decor. Enjoy rooftop lounges with panoramic views, state-of-the-art fitness centers, and vibrant social spaces, all designed to reflect the dynamic energy of the city and enhance your stay.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image6,
       bottomImage: [Image6, HomeDet61, HomeDet62],
     },
@@ -116,7 +116,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Comfortable Rooms feature river-inspired decor with soothing blues and greens, flowing patterns, and natural textures that evoke the tranquility of river scenery. Elements such as driftwood accents and water-themed artwork enhance the serene, nature-infused atmosphere.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image7,
         bottomImage: [Image7, HomeDet71, HomeDet72],
       },

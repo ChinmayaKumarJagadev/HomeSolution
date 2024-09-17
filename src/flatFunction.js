@@ -57,7 +57,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "These Modern 2 BHK Flats feature an open-plan design that seamlessly connects the living, dining, and kitchen areas, creating a spacious and airy feel. With high-quality finishes, large windows, and smart storage solutions, these flats provide a perfect balance of comfort and modern convenience.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image1,
       bottomImage: [Image1, HomeDet1, HomeDet2],
     },
@@ -72,7 +72,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Luxury 3 BHK Flats include expansive balconies ideal for relaxation and entertaining, offering beautiful views of the surroundings. Inside, the flats feature high-end finishes, well-designed layouts, ample natural light, and modern amenities that cater to a sophisticated urban lifestyle.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image2,
         bottomImage: [Image2, HomeDet21, HomeDet22],
       },
@@ -86,7 +86,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Each Compact Studio Flat features an open-plan design with smart storage solutions, maximizing space for single living. Modern finishes, built-in furniture, and energy-efficient appliances create a functional yet stylish living space, perfect for urban dwellers seeking simplicity and comfort.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image3,
         bottomImage: [Image3, HomeDet31, HomeDet32],
       },
@@ -100,7 +100,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These 4 BHK Affordable Flats feature large bedrooms, an open living and dining area, and a modular kitchen. With high-quality fittings, dedicated parking, and access to community amenities like a playground and gym, these flats are ideal for growing families.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image4,
         bottomImage: [Image4, HomeDet41, HomeDet42],
       },
@@ -114,7 +114,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Affordable 1 BHK Flats feature a smart, space-efficient layout with a cozy bedroom, open kitchen, and living area. Located close to key amenities and workplaces, they provide an excellent blend of affordability, modern design, and urban convenience",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image5,
         bottomImage: [Image5, HomeDet51, HomeDet52],
       },
@@ -128,7 +128,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Each Contemporary Duplex Flat includes a private terrace, ideal for relaxing or entertaining outdoors. The two-level layout offers spacious living areas with modern finishes, while large windows ensure ample natural light, blending indoor comfort with outdoor elegance.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image6,
         bottomImage: [Image6, HomeDet61, HomeDet62],
       },
@@ -142,7 +142,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These flats offer smart space utilization with open-plan living areas, modern kitchens, and ample storage. Energy-efficient appliances and budget-friendly materials ensure low maintenance costs, while a simple yet contemporary design provides a welcoming atmosphere for small families and couples.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image7,
         bottomImage: [Image7, HomeDet71, HomeDet72],
       },
@@ -156,7 +156,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Each Premium Penthouse Flat comes with panoramic city views from private balconies or terraces. The spacious interiors feature high-end finishes, smart home technology, and an open-concept design. Exclusive amenities, such as rooftop lounges and private elevators, provide the ultimate urban living experience.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image8,
         bottomImage: [Image8, HomeDet81, HomeDet82],
       },
@@ -170,7 +170,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Smart Home Flats are equipped with cutting-edge technology, including smart lighting, climate control, and security systems. Voice-activated assistants, remote access via mobile apps, and energy-efficient appliances make daily life easier, while maintaining a sleek and modern design.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image9,
         bottomImage: [Image9, HomeDet91, HomeDet92],
       },
@@ -184,7 +184,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Luxurious 5 BHK flats feature distinct living zones, including separate areas for entertainment, dining, and relaxation. The expansive design offers enhanced privacy, while high-end fixtures, elegant flooring, and state-of-the-art amenities ensure a truly exclusive living experience.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image10,
         bottomImage: [Image10, HomeDet101, HomeDet102],
       },
@@ -198,7 +198,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Eco-Friendly Flats feature energy-efficient lighting, water-saving fixtures, and solar-powered systems, reducing the carbon footprint. The use of sustainable materials such as reclaimed wood and eco-friendly insulation enhances both comfort and environmental responsibility, offering a modern yet sustainable living experience.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image11,
         bottomImage: [Image11, HomeDet111, HomeDet112],
       },
@@ -212,7 +212,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These Family-Friendly Flats include a secure, well-maintained kid’s play area with ample space for outdoor activities. The flats are designed with family needs in mind, offering open layouts, child-safe fixtures, and proximity to schools, parks, and family-friendly amenities.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image12,
         bottomImage: [Image12, HomeDet121, HomeDet122],
       },
@@ -227,7 +227,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "These 3 BHK Flats feature sleek modular kitchens equipped with smart storage solutions and high-quality finishes. The spacious layout ensures ample room for relaxation and living, while modern amenities, including large windows and well-ventilated spaces, create a bright and airy home environment.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image13,
         bottomImage: [Image13, HomeDet131, HomeDet132],
       },
@@ -242,7 +242,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Each flat features a private rooftop lounge area, ideal for unwinding with panoramic views or hosting gatherings. The modern design emphasizes outdoor living, with spacious terraces that extend the indoor living area, creating a seamless indoor-outdoor experience.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image14,
         bottomImage: [Image14, HomeDet141, HomeDet142],
       },
@@ -257,7 +257,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "ting and enjoying outdoor living. The balconies are equipped with stylish railings, durable flooring, and are ideal for personal relaxation or entertaining guests with a view.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image15,
         bottomImage: [Image15, HomeDet151, HomeDet152],
       },

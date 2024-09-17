@@ -57,7 +57,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "Expansive floor-to-ceiling windows flood the home with natural light, creating a seamless connection between indoor and outdoor spaces. The open floor plan enhances the flow of natural light throughout, while providing flexible, spacious living areas perfect for modern lifestyles.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image1,
       bottomImage: [Image1, HomeDet1, HomeDet2],
     },
@@ -72,7 +72,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "At the heart of this Cozy Rustic Home is a grand stone fireplace that adds both warmth and charm, creating a focal point for the living area. Complemented by rich wooden accents throughout, including exposed beams and hardwood floors, the design seamlessly blends rustic elegance with modern comfort.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image2,
       bottomImage: [Image2, HomeDet21, HomeDet22],
     },
@@ -87,7 +87,7 @@ const cardsData = [
       idealFor: "Medium Families",
       SpecialFeature:
         "This Luxurious Contemporary Home boasts an infinity pool that seamlessly merges with the surrounding landscape, creating a striking visual effect. Floor-to-ceiling glass walls provide uninterrupted views and abundant natural light, while high-end finishes and smart home technology ensure ultimate comfort and sophistication.",
-      price: "Starting from ₹ 10L",
+      price: "Get An Estimate",
       image: Image3,
       bottomImage: [Image3, HomeDet31, HomeDet32],
     },
@@ -101,7 +101,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Charming Cottage Home includes a beautifully landscaped garden with flowering plants and a cozy outdoor living area, complete with a rustic stone patio and comfortable seating. The design emphasizes a seamless indoor-outdoor connection, ideal for tranquil relaxation and gatherings",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image4,
         bottomImage: [Image4, HomeDet41, HomeDet42],
       },
@@ -116,7 +116,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Modern Urban Home boasts a expansive rooftop terrace perfect for entertaining or unwinding, with panoramic city views. Inside, floor-to-ceiling windows enhance the open-plan design, flooding the space with natural light and offering a seamless connection to the vibrant cityscape.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image5,
         bottomImage: [Image5, HomeDet51, HomeDet52],
       },
@@ -131,7 +131,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Charming Cottage Home includes a beautifully landscaped garden with flowering plants and a cozy outdoor living area, complete with a rustic stone patio and comfortable seating. The design emphasizes a seamless indoor-outdoor connection, ideal for tranquil relaxation and gatherings",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image6,
         bottomImage: [Image6, HomeDet61, HomeDet62],
       },
@@ -145,7 +145,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Stylish Contemporary Home showcases an open-concept kitchen and living area, where sleek countertops and high-end appliances complement a spacious, flowing design. Large windows and minimalist decor enhance the modern feel, creating a bright, inviting environment for contemporary living.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image7,
         bottomImage: [Image7, HomeDet71, HomeDet72],
       },
@@ -159,7 +159,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "Thhis Modern Eco-Friendly Home includes state-of-the-art solar panels for clean energy and a green roof that enhances insulation and supports biodiversity. The design focuses on sustainability with energy-efficient fixtures, and natural materials, creating a harmonious blend of modern aesthetics and eco-conscious living.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image8,
         bottomImage: [Image8, HomeDet81, HomeDet82],
       },
@@ -173,7 +173,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Elegant Modern Home boasts floor-to-ceiling windows that capture panoramic scenic views, filling the space with natural light. The open-plan layout highlights a blend of contemporary design and functionality, ensuring a stylish and immersive living experience amidst stunning surroundings.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image9,
         bottomImage: [Image9, HomeDet91, HomeDet92],
       },
@@ -188,7 +188,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This Modern White Brick Wallpaper creates a stylish and timeless appeal with its realistic brick texture. It’s easy to install, durable, and ideal for creating a feature wall or enhancing the overall brightness and spacious feel of modern interiors.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image10,
         bottomImage: [Image10, HomeDet101, HomeDet102],
       },
@@ -202,7 +202,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This L-Shape Contemporary House features a beautifully landscaped courtyard garden at its heart, providing a private oasis for relaxation. The design maximizes natural light and airflow, while the L-shaped layout offers distinct living spaces that open directly to the garden, blending nature with modern architecture.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image11,
         bottomImage: [Image11, HomeDet111, HomeDet112],
       }, 
@@ -216,7 +216,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This T-Shape Home features an integrated outdoor space that connects directly with the main living areas, perfect for alfresco dining or relaxation. The unique layout enhances privacy while offering a spacious, open feel, blending modern architecture with functional outdoor living.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image12,
         bottomImage: [Image12, HomeDet121, HomeDet122],
       },
@@ -230,7 +230,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "This design features chic monochrome walls accented by high-end marble detailing, creating a seamless blend of elegance and texture. The use of black, white, and grey tones adds depth, while the marble accents elevate the space, making it both luxurious and contemporary.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image13,
         bottomImage: [Image13, HomeDet131, HomeDet132],
       },
@@ -244,7 +244,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "The abstract design showcases layered textures and vibrant colors, adding depth and dimension to your walls. The use of textured paint creates a tactile, 3D effect, while the fusion of styles brings a sense of movement and creativity, perfect for contemporary interiors.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image14,
         bottomImage: [Image14, HomeDet141, HomeDet142],
       },
@@ -258,7 +258,7 @@ const cardsData = [
         idealFor: "Medium Families",
         SpecialFeature:
           "The 3D geometric walls are designed to enhance light and shadow play, creating a constantly shifting visual effect throughout the day. The textured surfaces not only add depth but also serve as a focal point in any room, blending art and architecture seamlessly.",
-        price: "Starting from ₹ 10L",
+        price: "Get An Estimate",
         image: Image15,
         bottomImage: [Image15, HomeDet151, HomeDet152],
       },
