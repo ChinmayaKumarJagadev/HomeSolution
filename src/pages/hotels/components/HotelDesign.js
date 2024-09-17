@@ -6,52 +6,52 @@ import Personal3 from "../../../assets/Images/hotel3.jpg";
 import Personal4 from "../../../assets/Images/hotel4.jpg";
 import Personal5 from "../../../assets/Images/hotel5.jpg";
 import Personal6 from "../../../assets/Images/hotel6.jpg";
-import Personal7 from "../../../assets/Images/hotel7.jpg";
-import Personal8 from "../../../assets/Images/hotel8.jpg";
 import Personal9 from "../../../assets/Images/hotel9.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id: 1,
     img: Personal1,
     title: "Smart Modular Layouts for Efficient Hotels Design",
   },
   {
+    id: 2,
     img: Personal2,
     title: "Stylish Hotel Rooms with Relaxing Resort Features",
   },
   {
+    id: 3,
     img: Personal3,
     title: "Luxury Hotels Offering Exclusive Rooftop Pool Experiences",
   },
   {
+    id: 4,
     img: Personal4,
     title: "Relaxing Beachfront Hotels with Stunning Ocean Views",
   },
   {
+    id: 5,
     img: Personal5,
     title: "Comfortable Rooms with Scenic Mountain Views",
   },
   {
+    id: 6,
     img: Personal6,
     title: "Trendy Urban Hotels with Modern City Vibes",
   },
   {
-    img: Personal7,
-    title: "Luxurious Spa Resorts with Relaxing Wellness Features",
-  },
-  {
-    img: Personal8,
-    title: "Modern Spaces Featuring Stunning Rooftop Experiences",
-  },
-  {
+    id: 7,
     img: Personal9,
-    title:"Comfortable Rooms with River-Inspired Decor"
-  }
+    title: "Comfortable Rooms with River-Inspired Decor",
+  },
 ];
 
 function HotelDesign() {
+  const router = useRouter();
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -81,10 +81,13 @@ function HotelDesign() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/hotels/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+                <button className={styles.getFullViewHome}>
+                  <Link href={`/hotels/details/${home?.id}`}>Get Full View</Link>
+                </button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>

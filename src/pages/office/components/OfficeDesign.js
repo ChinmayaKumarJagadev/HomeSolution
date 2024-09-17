@@ -9,54 +9,62 @@ import Personal6 from "../../../assets/Images/off6.jpg";
 import Personal7 from "../../../assets/Images/off7.jpg";
 import Personal8 from "../../../assets/Images/off8.jpg";
 import Personal9 from "../../../assets/Images/off9.jpg";
-import Personal10 from "../../../assets/Images/off10.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id: 1,
     img: Personal1,
     title: "Professional Office Designs with a Modern Edge",
   },
   {
+    id: 2,
     img: Personal2,
     title: "Minimalist Offices with Elegant Design Solutions",
   },
   {
+    id: 3,
     img: Personal3,
     title: "Luxurious Office Spaces with Clean, Modern Lines",
   },
   {
+    id: 4,
     img: Personal4,
     title: "Exclusive Office Interiors with a Modern Twist",
   },
   {
+    id: 5,
     img: Personal5,
     title: "Eco-Friendly Offices with Sustainable Design",
   },
   {
+    id: 6,
     img: Personal6,
     title: "Corporate Offices with Sleek, Professional Interiors",
   },
   {
+    id: 7,
     img: Personal7,
     title: "Creative Studio Offices with Inspiring Designs",
   },
   {
+    id: 8,
     img: Personal8,
     title: "Tech-Driven Offices with Smart Features and Layout",
   },
   {
+    id: 9,
     img: Personal9,
     title: "Open-Plan Offices with Collaborative Workspaces",
   },
-  {
-    img: Personal10,
-    title: "Home Office Designs with Comfort and Functionality"
-  }
 ];
 
 function OfficeDesign() {
+  const router = useRouter();
+  
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -86,10 +94,11 @@ function OfficeDesign() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/office/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+            <button className={styles.getFullViewHome} ><Link href={`/office/details/${home?.id}`}>Get Full View</Link></button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>

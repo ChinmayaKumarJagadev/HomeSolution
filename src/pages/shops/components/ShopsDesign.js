@@ -2,56 +2,57 @@ import Image from "next/image";
 import React from "react";
 import Personal1 from "../../../assets/Images/shop1.jpg";
 import Personal2 from "../../../assets/Images/shop2.jpg";
-import Personal3 from "../../../assets/Images/shop3.jpg";
-import Personal4 from "../../../assets/Images/shop4.jpg";
-import Personal5 from "../../../assets/Images/shop5.jpg";
+import Personal5 from "../../../assets/Images/shop-2.1.1.jpg";
 import Personal6 from "../../../assets/Images/shop6.jpg";
 import Personal7 from "../../../assets/Images/shop7.jpg";
 import Personal8 from "../../../assets/Images/shop8.jpg";
 import Personal9 from "../../../assets/Images/shop9.jpg";
 import Love from "../../../assets/Images/love.png";
 import styles from "../../../styles/personalhome.module.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const homes = [
   {
+    id : 1,
     img: Personal1,
     title: "Effortlessly Stylish Shops with Modern Layouts",
   },
   {
+    id : 2,
     img: Personal2,
     title: "Elegant Shop Designs for Optimal Shopping Experience",
   },
   {
-    img: Personal3,
-    title: "Versatile Storefronts with Smart Layout Solutions",
-  },
-  {
-    img: Personal4,
-    title: "Sophisticated Retail Spaces with Minimalist Touches",
-  },
-  {
+    id : 3,
     img: Personal5,
     title: "Unique Shop Interiors for Enhanced Customer Experience",
   },
   {
+    id : 4,
     img: Personal6,
     title: "Unique Retail Spaces with Seamless Outdoor Integration",
   },
   {
+    id : 5,
     img: Personal7,
     title: "Trendy Shops with Engaging Customer Interactions",
   },
   {
+    id : 6,
     img: Personal8,
     title: "Boutique Shops with Creative Interiors and Design",
   },
   {
+    id : 7,
     img: Personal9,
     title: "Environmentally Friendly Stores with Smart Designs",
   },
 ];
 
 function ShopDesign() {
+  const router = useRouter();
+
   return (
     <div className="mt-[25px]">
       <div className="">
@@ -78,17 +79,17 @@ function ShopDesign() {
               alt="Home Design"
               width={500}
               className={styles.personalHomeImages}
+              onClick={() => router.push(`/shops/details/${home?.id}`)}
             />
             <div className={styles.personalHomeCardTitle}>{home.title}</div>
             <div className={styles.cardButtonContainer}>
-              <button className={styles.getFullViewHome}>Get Full View</button>
+            <button className={styles.getFullViewHome}>
+                <Link href={`/shops/details/${home?.id}`}>Get Full View</Link>
+              </button>
               <button className={styles.bookConsultation}>
                 Book A Consultation
               </button>
             </div>
-            <button className={styles.priceButtonHomeConst}>
-              <span className="line-through mr-[20px]">₹ 10, 20000</span> ₹ 9, 10000
-            </button>
           </div>
         ))}
       </div>
