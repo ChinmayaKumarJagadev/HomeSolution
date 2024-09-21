@@ -1,0 +1,421 @@
+
+.livingRoomContentContainer{
+  padding: 25px 0px;
+  margin-top: 142px;
+}
+
+.livingRoomContentText{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "AvenirNextLTPro-medium";
+  letter-spacing: 1px;
+  padding: 0px 50px;
+}
+
+.livingRoomHeroDesc{
+  font-size: 20px;
+  font-family: "AvenirNextLTPro-regular";
+  margin-left: 50px;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 10px;
+  padding: 0px 50px;
+}
+
+.livingRoomContentDesc{
+  font-size: 16px;
+  padding-top: 5px;
+  color: #3d466b;
+  padding: 0px 50px;
+}
+
+.livingRoomReadMoreButton{
+  color: #f63b2a;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+.livingRoomLeftContainer{
+  width: 50%;
+}
+.livingRoomDesignTitle{
+  font-size: 26px;
+  font-family: "AvenirNextLTPro-medium";
+  font-weight: bold;
+}
+.modernLivingRoom{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "AvenirNextLTPro-medium";
+  margin-bottom: 10px;
+}
+
+
+.livingRoomDesignContainer {
+  /* margin-top: 10px; */
+  margin: 0 auto;
+  position: relative;
+  /* max-width: 1500px; */
+}
+
+.imageContainer {
+  /* max-width: 800px;  */
+  margin: 0 auto;   /* Center the image */
+}
+
+.livingRoomImage {
+  max-width: 100%;  /* Ensure the image doesn't exceed container size */
+  height: auto;     /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure proper image resizing */
+}
+.scrollWrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 100px 20px 100px;
+  background-color: rgba(247, 242, 252, 0.974);
+}
+
+.scrollContainer {
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* min-width: 300px; */
+  /* width: 1000px; */
+}
+.scrollContainer2{
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.scrollContainer3{
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.scrollContainer4{
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.scrollContainer5{
+  display: flex;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.scrollButton {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 25px;
+}
+
+.left {
+ left: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.livingRoomCardImage {
+  height: 280px;
+  width: 420px;
+  object-fit: cover;
+}
+.livingRoomCardContainer{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  /* min-width: 300px; */
+  flex-shrink: 0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.livingRoomTitle{
+  color: #fff;
+  position: absolute;
+  bottom: 53px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+  /* position: relative; */
+  z-Index: 2; 
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 55px;
+}
+
+.getQuoteLivingRoom{
+  background-color: #3d466b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 10px 0 0 0;
+  padding: 10px 55px;
+}
+
+.moreInfoLivingRoom{
+  font-size: 17px;
+  color: #f63b2a;
+  /* background-color: #f63b2a; */
+  border: 1px solid #f63b2a;
+  padding: 8px 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: bold;
+}
+
+
+.livingRoomModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.livingRoomModalContent {
+  background: #fff;
+  padding: 20px;
+  max-width: 100%;
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  /* margin: 0 200px; */
+  width: 50%;
+  /* display: flex; */
+  overflow: auto;
+  height: 100vh;
+  margin-left: auto;
+  /* display: flex; */
+}
+
+.livingRoomModalTitle{
+ font-size: 20px;
+ font-weight: bold;
+ width: 70%;
+}
+
+
+.livingRoomModalDesc{
+  font-size: 15px;
+  color: #3d466b;
+  margin-top: 20px;
+  width: 100%;
+ }
+
+ .livingRoomModalButton{
+  border-radius: 20px;
+  background-color: #f63b2a;
+  color: #fff;
+  padding: 10px 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+
+ .livigRoomModalLeftContainer{
+  /* width: 100%; */
+  margin-top: 50px;
+ }
+ .livingRoomModalRightContainer{
+  width: 100%;
+ }
+
+.modalImage{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+.livingRoomfullModalContentContainer{
+  /* display: flex; */
+}
+
+.closeButtonModalLivingRoom {
+  background: #ff5f5f;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* float: right; */
+  right: 20px;
+  top: 0px;
+  position: absolute;
+}
+
+/* .modalBody {
+  margin-bottom: 20px;
+} */
+
+/* .modalFooter {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+@media only screen and (max-width:1024px) {
+  .livingRoomContentContainer{
+    padding: 20px 0px;
+  }
+  .livingRoomContentText{
+    padding: 0 20px;
+  }
+  .livingRoomContentText{
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  .livingRoomContentDesc{
+    padding: 0;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .modernLivingRoom{
+    font-size: 17px;
+  }
+  .scrollWrapper{
+    padding: 0 30px;
+  }
+
+  .livingRoomCardImage {
+    height: 280px;
+    width: 317px;
+  }
+
+  .livingRoomTitle{
+    width: 317px;
+  }
+  .scrollContainer{
+    gap: 25px;
+  }
+  .scrollContainer2{
+    gap: 25px;
+  }
+  .scrollContainer3{
+    gap: 25px;
+  }
+  .scrollContainer{
+    gap: 25px;
+  }
+  .scrollContainer5{
+    gap: 25px;
+  }
+  .getQuoteLivingRoom{
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+  
+  .moreInfoLivingRoom{
+    font-size: 14px;
+    padding: 6px 20px;
+    margin-right: 1px;
+  }
+  .scrollButton{
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+  }
+
+  .livingRoomModalOverlay {
+    overflow: auto;
+
+  }
+  .livingRoomModalContent{
+    margin: 50px 20px;
+    max-height: 80%; /* Limit the height */
+    overflow-y: auto;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .livigRoomModalLeftContainer{
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px;
+   }
+   .livingRoomModalRightContainer{
+    width: 100%;
+
+   }
+   .livingRoomModalDesc{
+    width: 100%;
+    text-align: justify;
+   }
+   .modalImage{
+    height: 350px;
+  }
+  .closeButtonModalLivingRoom{
+    right: 10px;
+    top: 0px;
+  }
+  .livingRoomfullModalContentContainer{
+    flex-direction: column-reverse;
+  }
+}

@@ -9,8 +9,11 @@ import image6 from "../../assets/Images/dinning.jpg";
 import image7 from "../../assets/Images/bathroom.jpg";
 import image8 from "../../assets/Images/balcony.png";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 function InteriorSection() {
+  const router = useRouter();
+  
   return (
     <div className={styles.interiorContainer}>
       <div className={styles.interiorTitle}>
@@ -27,6 +30,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage1}
             width={400}
+            onClick={() => router.push('/living-room')}
           />
           <div className={styles.livingRoomText}>Living Room</div>
           <Image
@@ -34,6 +38,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage2}
             width={400}
+            onClick={() => router.push('/bed-room')}
           />
           <div className={styles.bedRoomText}>Bed Room</div>
           <Image
