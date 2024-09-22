@@ -62,6 +62,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage5}
             width={400}
+            onClick={() => router.push('/wodrobe')}
           />
           <div className={styles.wodrobeText}>Wodrobe</div>
           <Image
