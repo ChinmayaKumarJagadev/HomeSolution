@@ -54,7 +54,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage4}
             width={400}
-            onClick={() => router.push('/bed-room')}
+            onClick={() => router.push('/kitchen')}
           />
           <div className={styles.kitchenRoomText}>Kitchen Room</div>
           <Image
