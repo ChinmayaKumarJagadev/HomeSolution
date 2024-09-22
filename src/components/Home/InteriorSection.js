@@ -46,6 +46,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage3}
             width={400}
+            onClick={() => router.push('/false-ceiling')}
           />
           <div className={styles.ceilingRoomText}>False Ceiling</div>
           <Image
@@ -53,6 +54,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage4}
             width={400}
+            onClick={() => router.push('/bed-room')}
           />
           <div className={styles.kitchenRoomText}>Kitchen Room</div>
           <Image
