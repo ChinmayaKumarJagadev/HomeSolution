@@ -49,8 +49,8 @@
 /* Individual Slide */
 .slides {
   width: 200px;
-  height: 200px;
-  margin-right: 20px;
+  height: 180px;
+  margin-right: 80px;
   background: rgb(230, 232, 255, 0.5);
   color: #000;
   display: flex;
