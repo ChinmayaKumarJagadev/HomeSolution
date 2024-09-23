@@ -70,6 +70,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage6}
             width={400}
+            onClick={() => router.push('/dinning')}
           />
           <div className={styles.dinningRoomText}>Dinning Room</div>
           <Image
@@ -77,6 +78,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage7}
             width={400}
+            onClick={() => router.push('/bathroom')}
           />
           <div className={styles.bathRoomText}>Bathroom</div>
           <Image
@@ -84,6 +86,7 @@ function InteriorSection() {
             alt="error"
             className={styles.interiorImage8}
             width={400}
+            onClick={() => router.push('/balcony')}
           />
           <div className={styles.balconyText}>Balcony</div>
         </div>

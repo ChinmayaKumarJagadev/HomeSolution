@@ -1,16 +1,16 @@
 import Header from '@/components/Home/Header'
 import React from 'react'
-import WodrobeDesign from './component/wodrobeDesign'
+import DinningDesign from './components/DinningDesign'
 import Footer from '../../components/Footer/index'
 
-function Wodrobe() {
+function Dinning() {
   return (
     <div>
         <Header />
-        <WodrobeDesign />
-        <Footer />
+        <DinningDesign />
+        <Footer/>
     </div>
   )
 }
 
-export default Wodrobe
+export default Dinning

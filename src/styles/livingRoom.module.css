@@ -72,7 +72,7 @@
 .livingRoomImage {
   max-width: 100%;  /* Ensure the image doesn't exceed container size */
   height: auto;     /* Maintain aspect ratio */
-  object-fit: cover; /* Ensure proper image resizing */
+  object-fit: cover; 
 }
 .scrollWrapper {
   position: relative;

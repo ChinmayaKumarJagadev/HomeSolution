@@ -1,16 +1,16 @@
 import Header from '@/components/Home/Header'
 import React from 'react'
-import WodrobeDesign from './component/wodrobeDesign'
+import BalconyDesign from './components/BalconyDesign'
 import Footer from '../../components/Footer/index'
 
-function Wodrobe() {
+function Balcony() {
   return (
     <div>
         <Header />
-        <WodrobeDesign />
+        <BalconyDesign />
         <Footer />
     </div>
   )
 }
 
-export default Wodrobe
+export default Balcony

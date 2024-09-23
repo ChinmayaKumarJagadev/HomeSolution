@@ -1,16 +1,16 @@
 import Header from '@/components/Home/Header'
 import React from 'react'
-import WodrobeDesign from './component/wodrobeDesign'
+import BathroomDesign from './components/BathroomDesign'
 import Footer from '../../components/Footer/index'
 
-function Wodrobe() {
+function Bathroom() {
   return (
     <div>
         <Header />
-        <WodrobeDesign />
+        <BathroomDesign />
         <Footer />
     </div>
   )
 }
 
-export default Wodrobe
+export default Bathroom
