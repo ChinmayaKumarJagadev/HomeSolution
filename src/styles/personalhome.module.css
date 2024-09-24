@@ -103,11 +103,11 @@
 }
 
 .navbarItem:hover {
-  color: #f63b2a;
+  color: #4CAF50;
 }
 
 .activeItem {
-  border-bottom: 4px solid #f63b2a;
+  border-bottom: 4px solid #4CAF50;
 }
 
 .homeDetailContainer{
@@ -141,7 +141,7 @@
 }
 .homeCardPriceButton{
   padding: 10px 40px;
-  background-color: #f63b2a;
+  background-color: #4CAF50;
   color: #fff;
   border-radius: 6px;
   margin-top: 30px;

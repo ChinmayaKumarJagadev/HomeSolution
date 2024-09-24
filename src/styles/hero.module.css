@@ -142,7 +142,7 @@
   /* left: 50px;  */
   z-index: 3;
   color: #fff;
-  background-color: rgba(39, 37, 37, 0.406);
+  background-color: rgba(39, 37, 37, 0.556);
   width: 100%;
   top: 0%;
   height: 100%;
@@ -189,7 +189,7 @@
   /* animation: slideInLeft 2s ease-in-out forwards; */
   /* animation-delay: 1s; */
   /* left: -500px; */
-  background-color: #f63b2a;
+  background-color: #4CAF50;
   padding: 15px 40px;
   border-radius: 30px;
   font-weight: bold;

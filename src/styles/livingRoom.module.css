@@ -32,7 +32,7 @@
 }
 
 .livingRoomReadMoreButton{
-  color: #f63b2a;
+  color: #4CAF50;
   text-decoration: underline;
   cursor: pointer;
   padding-left: 8px;
@@ -214,9 +214,9 @@
 
 .moreInfoLivingRoom{
   font-size: 17px;
-  color: #f63b2a;
-  /* background-color: #f63b2a; */
-  border: 1px solid #f63b2a;
+  color: #4CAF50;
+  /* background-color: #4CAF50; */
+  border: 1px solid #4CAF50;
   padding: 8px 30px;
   margin-top: 10px;
   border-radius: 20px;
@@ -272,7 +272,7 @@
 
  .livingRoomModalButton{
   border-radius: 20px;
-  background-color: #f63b2a;
+  background-color: #4CAF50;
   color: #fff;
   padding: 10px 50px;
   margin-top: 50px;

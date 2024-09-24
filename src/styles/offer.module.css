@@ -63,17 +63,18 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: o auto;
+  padding: 0 auto;
   text-align: center;
-  box-shadow: rgba(7, 7, 7, 0.559) 0px 4px 10px;
+  box-shadow: rgba(7, 7, 7, 0.359) 0px 4px 10px;
   cursor: pointer;
+  max-width: 250px;
 }
 
 .offerImageContainer {
   border-radius: 50%;
   /* border: 1px solid red; */
   clip-path: polygon(40% 0, 100% 27%, 100% 79%, 20% 100%, 0% 38%);
-  background-color: rgba(246, 59, 42, 0.2);
+  background-color: rgba(38, 135, 67, 0.2);
   padding: 0 20px;
   height: 90px;
   justify-content: center;
@@ -83,7 +84,7 @@
 
 .checkIcon{
   position: absolute;
-  top: 20px;
+  top: 15px;
   /* bottom: 10px; */
   /* right: 10px; */
   margin-left: 4%;

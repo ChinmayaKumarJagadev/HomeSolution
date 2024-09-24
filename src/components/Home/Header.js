@@ -174,7 +174,7 @@ function Header() {
                       width={30}
                     />
                     <a href="tel:+918249811046" className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
-                      +91 8249811046
+                      +91 82498110
                     </a>
                   </Link>
                 </div>

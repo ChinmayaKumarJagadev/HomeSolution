@@ -33,7 +33,7 @@ function AboutLeftContainer() {
           <button
             className="flex font-bold py-2 px-5 text-white rounded-md mr-5 mt-5 ml-auto 
       transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-orange-600"
-            style={{ backgroundColor: "#f63b2a" }}
+            style={{ backgroundColor: "#4CAF50" }}
           >
             More About Us
             <Image

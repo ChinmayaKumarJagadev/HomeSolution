@@ -45,13 +45,13 @@
   margin: 20px auto 0 auto;
 }
 .homeContactHereText {
-  color: #f63b2a;
+  color: #4CAF50;
   cursor: pointer;
   font-size: 18px;
 }
 
 .messageContainerHome {
-  background-color: #f63b2a;
+  background-color: #4CAF50;
   border-radius: 50%;
   height: 60px;
   width: 60px;

@@ -6,7 +6,7 @@ import Image3 from "../../../assets/Images/wodrobe-9.jpg";
 import Image4 from "../../../assets/Images/wodrobe-10.jpg";
 import Image5 from "../../../assets/Images/wodrobe-11.jpg";
 import Image6 from "../../../assets/Images/wodrobe-12.jpg";
-import rightArrow from '../../../assets/Images/arrow-right.png'
+import rightArrow from '../../../assets/Images/right-arrow (2).png';
 
 import Image from "next/image";
 import Modal from "./InteriorDetailsPage";
@@ -113,7 +113,7 @@ function ScandinavianLivingRoom() {
               <div className={styles.livingRoomTitle}>{item.title}</div>
               <div className="flex justify-between">
                 <button className={styles.getQuoteLivingRoom}>Get Quote</button>
-                <button className={styles.moreInfoLivingRoom}   onClick={() => handleMoreInfoClick(item)}>Explore Now<Image src={rightArrow} alt="err" width={25}/></button>
+                <button className={styles.moreInfoLivingRoom}   onClick={() => handleMoreInfoClick(item)}>Explore Now<Image src={rightArrow} alt="err" width={25} /></button>
               </div>
             </div>
           ))}

@@ -9,7 +9,7 @@ import city from "../../assets/Images/globe.png";
 import emi from "../../assets/Images/emi.png";
 import project from "../../assets/Images/project.png";
 import expr from "../../assets/Images/experience.png";
-import check from "../../assets/Images/check.png";
+import check from "../../assets/Images/check-icon.png";
 
 function OfferSection() {
   return (

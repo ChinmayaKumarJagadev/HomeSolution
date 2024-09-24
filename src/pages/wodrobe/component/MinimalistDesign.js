@@ -6,7 +6,7 @@ import Image3 from "../../../assets/Images/wodrobe-15.jpg";
 import Image4 from "../../../assets/Images/wodrobe-16.jpg";
 import Image5 from "../../../assets/Images/wodrobe-17.jpg";
 import Image6 from "../../../assets/Images/wodrobe-18.jpg";
-import rightArrow from '../../../assets/Images/arrow-right.png'
+import rightArrow from '../../../assets/Images/right-arrow (2).png';
 
 import Image from "next/image";
 import Modal from "./InteriorDetailsPage";

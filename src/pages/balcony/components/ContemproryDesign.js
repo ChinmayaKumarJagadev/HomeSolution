@@ -6,7 +6,7 @@ import Image3 from "../../../assets/Images/balcony-3.jpg";
 import Image4 from "../../../assets/Images/balcony-4.jpg";
 import Image5 from "../../../assets/Images/balcony-5.jpg";
 import Image6 from "../../../assets/Images/balcony-6.jpg";
-import rightArrow from '../../../assets/Images/arrow-right.png';
+import rightArrow from '../../../assets/Images/right-arrow (2).png';
 
 import Image from "next/image";
 import Modal from "./InteriorDetailsPage"; 

@@ -9,8 +9,8 @@ import {
 } from "react-icons/fa";
 import styles from "../../../styles/footer.module.css";
 import phone from "../../../assets/Images/phone-call.png";
-import mail from "../../../assets/Images/mail2.png";
-import loc from "../../../assets/Images/loc.png";
+import mail from "../../../assets/Images/mail-icon.png";
+import loc from "../../../assets/Images/location-icon.png";
 
 function leftContaner() {
   return (
@@ -19,7 +19,7 @@ function leftContaner() {
 
       <div className="mt-3 text-[18px]">Home Solution Limited</div>
       <div className="flex gap-3">
-        <Image src={loc} alt="err" width={15} className="mt-1 h-[15px]" />
+        <Image src={loc} alt="err" width={20} className="mt-1 h-[20px]" />
         <div>
           Dhauli Heritage Basinomata Bihar Sundarpada, <br />
           Flat no 502, Odisha, Bhubaneswar <br /> Pin - 751002
@@ -30,8 +30,8 @@ function leftContaner() {
         <Image
           src={phone}
           alt="err"
-          width={15}
-          className="mt-1 h-[15px] cursor-pointer"
+          width={20}
+          className="mt-1 cursor-pointer h-[20px]"
         />
        <div>
             <a href="tel:+918249811046" className="cursor-pointer">+91 8249811046  </a> |
@@ -44,8 +44,8 @@ function leftContaner() {
         <Image
           src={mail}
           alt="err"
-          width={15}
-          className="mt-1 h-[15px] cursor-pointer"
+          width={20}
+          className="mt-1cursor-pointer h-[20px]"
         />
         <a href="mailto:homesolution@gmail.com" className="cursor-pointer">homesolution@gmail.com</a>
       </div>

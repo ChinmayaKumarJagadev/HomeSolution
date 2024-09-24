@@ -11,7 +11,7 @@ function AboutRightContainer() {
       <ol class="relative text-gray-500 border-gray-200 dark:border-gray-700 dark:text-gray-400 w-full">
         <li class="mb-[0px] ps-[50px] border-s h-[150px]">
         <span className="absolute flex items-center justify-center w-[60px] h-[60px] 
-        rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-900" style={{ backgroundColor: "#f63b2a"}}>
+        rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-900" style={{ backgroundColor: "#4CAF50"}}>
         <Image src={About1} alt="error" width={30} height={30} />
         </span>
           <h3 class="font-semibold text-xl text-black leading-tight uppercase pt-1">
@@ -23,7 +23,7 @@ function AboutRightContainer() {
         </li>
         <li class="mb-[0px]  border-s ps-[50px] h-[150px]">
           <span class="absolute flex items-center justify-center w-[60px] h-[60px] 
-          rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#f63b2a"}}>
+          rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#4CAF50"}}>
           <Image src={About2} alt="error" width={30} height={30} />
           </span>
           <h3 class="font-semibold leading-tight text-xl text-black leading-tight uppercase pt-1">Designed with You</h3>
@@ -33,7 +33,7 @@ function AboutRightContainer() {
         </li>
         <li class="mb-[0px] ps-[50px]">
           <span class="absolute flex items-center justify-center w-[60px] h-[60px] 
-          rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#f63b2a"}}>
+          rounded-full -left-8 ring-7 ring-white dark:ring-gray-900 dark:bg-gray-700" style={{ backgroundColor: "#4CAF50"}}>
           <Image src={About3} alt="error" width={30} height={30} />
           </span>
           <h3 class="font-semibold leading-tight text-xl text-black leading-tight uppercase pt-1">Value and Timeliness</h3>

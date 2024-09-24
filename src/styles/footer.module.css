@@ -1,6 +1,5 @@
 .footerContainer {
   background-color: #3d466b;
-  margin-top: 40px;
   display: flex;
 }
 
@@ -13,10 +12,13 @@
   font-size: 17px;
 }
 .footerIcons {
-  color: #fff;
-  width: 26px;
-  height: 26px;
+  color: #4CAF50;
+  width: 36px;
+  height: 36px;
   margin-top: 10px;
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 50%;
 }
 
 .middleFooterContainer {
@@ -43,14 +45,14 @@
 
 .footerButton {
   padding: 10px 50px;
-  background-color: #f63b2a;
+  background-color: #4CAF50;
   color: #fff;
   border-radius: 7px;
   margin-top: 30px;
 }
 
 .arrowFooter {
-  color: #f63b2a;
+  color: #4CAF50;
   font-size: 25px;
 }
 @media only screen and (max-width: 1024px) {
