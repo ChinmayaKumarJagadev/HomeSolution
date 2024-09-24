@@ -40,9 +40,9 @@ const Hero = () => {
         axis="horizontal"
         showStatus={false}
         onChange={handleChange}
-        infiniteLoop={true}
+        // infiniteLoop={true}
         autoPlay={true}
-        interval={2000}
+        interval={4000}
         stopOnHover={false}
         renderArrowPrev={(onClickHandler, hasPrev) =>
           hasPrev && (
