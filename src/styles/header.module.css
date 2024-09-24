@@ -146,6 +146,7 @@
   animation: slideInLeft 1s ease-in-out forwards;
   animation-delay: 1.6s;
   left: 150%;
+  margin-bottom: 30px;
 }
 
 @keyframes slideInLeft {

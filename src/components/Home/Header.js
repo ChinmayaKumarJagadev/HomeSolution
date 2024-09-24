@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 import styles from "../../styles/header.module.css";
 import logo from "../../assets/Images/homeLogo.svg";
 import Phone from "../../assets/Images/phone-call.png";
-import Mail from "../../assets/Images/mail.png";
+import Mail from "../../assets/Images/mail-icon.png";
 import SocialIcons from "./SocialIcons";
 
 Modal.setAppElement("#__next"); // Important for accessibility
@@ -159,7 +159,7 @@ function Header() {
               <div className="text-left mb-2 md:text-3xl text-[16px] font-bold">
                 NEED HELP ?
               </div>
-              <div className="flex flex-col gap-1 md:gap-7 h-[75px]">
+              <div className="flex flex-col gap-[10px] md:gap-[10px] h-[75px]">
                 <div className={styles.phoneText}>
                   <Link
                     href="https://www.facebook.com"
@@ -174,7 +174,7 @@ function Header() {
                       width={30}
                     />
                     <a href="tel:+918249811046" className="text-[20px] ml-3 text-customRed font-bold md:text-3xl">
-                      +91 82498110
+                      +91 8249811046
                     </a>
                   </Link>
                 </div>
