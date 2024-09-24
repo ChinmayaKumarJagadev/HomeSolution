@@ -42,7 +42,7 @@ const Hero = () => {
         onChange={handleChange}
         infiniteLoop={true}
         autoPlay={true}
-        interval={7000}
+        interval={2000}
         stopOnHover={false}
         renderArrowPrev={(onClickHandler, hasPrev) =>
           hasPrev && (
