@@ -112,7 +112,7 @@
   top: 50%;
   transform: translateY(-50%);
   /* background: #fff; */
-  background-color: rgba(19, 10, 10, 0.5);
+  background-color: rgba(19, 10, 10, 0.7);
   border: none;
   color: #fff;
   font-size: 30px;
@@ -127,7 +127,7 @@
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(19, 10, 10, 0.5);
+  background-color: rgba(19, 10, 10, 0.7);
   border: none;
   color: #fff;
   font-size: 30px;
