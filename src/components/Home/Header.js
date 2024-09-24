@@ -60,9 +60,6 @@ function Header() {
             <Link href="/project">Projects</Link>
           </li>
           <li>
-            <Link href="/testimonials">Testimonials</Link>
-          </li>
-          <li>
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
@@ -139,12 +136,7 @@ function Header() {
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
               </li>
-              <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
-                <Link href="/" className="flex items-center">
-                  Testimonials{" "}
-                  <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
-                </Link>
-              </li>
+
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
                 <Link href="/" className="flex items-center">
                   Contact{" "}
