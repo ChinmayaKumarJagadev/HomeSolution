@@ -259,7 +259,7 @@
 .livingRoomModalTitle{
  font-size: 20px;
  font-weight: bold;
- width: 70%;
+ width: 100%;
 }
 
 
@@ -298,7 +298,7 @@
 }
 
 .closeButtonModalLivingRoom {
-  background: #ff5f5f;
+  background: #4CAF50;
   border: none;
   color: #fff;
   font-size: 20px;
