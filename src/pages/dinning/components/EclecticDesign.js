@@ -6,7 +6,7 @@ import Image3 from "../../../assets/Images/dinning-27.jpg";
 import Image4 from "../../../assets/Images/dinning-28.jpg";
 import Image5 from "../../../assets/Images/dinning-29.jpg";
 import Image6 from "../../../assets/Images/dinning-30.jpg";
-import rightArrow from "../../../assets/Images/arrow-right.png";
+import rightArrow from "../../../assets/Images/right-arrow (2).png";
 import Modal from "./InteriorDetailsPage";
 
 import Image from "next/image";
