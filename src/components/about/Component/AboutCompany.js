@@ -26,25 +26,25 @@ function AboutCompany() {
   }, []);
 
   return (
-    <div className="flex flex-wrap px-10 justify-around">
+    <div className={styles.aboutCompanyMainContainer}>
       <div className={styles.aboutCompanyCircles}>
         <div className="text-4xl font-bold">{experience} +</div>
-        <div className="text-lg">Years Of Experience</div>
+        <div className="md:text-[18px] pt-2 text-[14px]">Years Of Experience</div>
       </div>
 
       <div className={styles.aboutCompanyCircles}>
         <div className="text-4xl font-bold">{projects} +</div>
-        <div className="text-md">Our Projects</div>
+        <div className="md:text-[18px] pt-2 text-[14px]">Our Projects</div>
       </div>
 
       <div className={styles.aboutCompanyCircles}>
         <div className="text-4xl font-bold">{clients} +</div>
-        <div className="text-md">Happy Clients</div>
+        <div className="md:text-[18px] pt-2 text-[14px]">Happy Clients</div>
       </div>
 
       <div className={styles.aboutCompanyCircles}>
         <div className="text-4xl font-bold">{awards} +</div>
-        <div className="text-md">Awards</div>
+        <div className="md:text-[18px] pt-2 text-[14px]">Awards</div>
       </div>
     </div>
   );
