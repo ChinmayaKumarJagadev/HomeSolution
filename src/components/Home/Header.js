@@ -125,7 +125,7 @@ function Header() {
                 </Link>
               </li>
               <li className="hover:bg-customRed hover:text-white p-2 rounded text-xl m-4">
-                <Link href="/" className="flex items-center">
+                <Link href="/services" className="flex items-center">
                   Services{" "}
                   <FaChevronRight className="text-white text-sm ml-auto mr-[15px]" />
                 </Link>
