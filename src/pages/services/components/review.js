@@ -88,8 +88,9 @@ function Review() {
 
       <VideoModal isOpen={openVideo} onClose={handleCloseModal}>
         <iframe
-          width="1060"
-          height="415"
+          // width="1060"
+          // height="415"
+          className={styles.videoPlayer}
           src="https://www.youtube.com/embed/eBoRQlwD0Cc?si=kzCOR8IP3sLp-SWP"
           title="YouTube video player"
           frameBorder="0"
