@@ -6,9 +6,10 @@ import Footer from '../../components/Footer/index'
 function Services() {
   return (
     <div>
-        <Header/>
+        {/* <Header/>
         <ServicesPageDesign />
-        <Footer />
+        <Footer /> */}
+           <h1 className="text-center text-[50px] font-bold">Work in Progress</h1>
     </div>
   )
 }
